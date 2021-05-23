@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Mythos</title>
+    
+        <!---Styling-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="style.css" rel="stylesheet">
+
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+
+        <!-- JavaScript files-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src = "https://d3js.org/d3-zoom.v1.min.js"></script>
+        <script src = "https://d3js.org/d3-selection.v1.min.js"></script>
+        <script src = "https://d3js.org/d3-transition.v1.min.js"></script>
+
+
+</head>
+
+<body>
+    
+    <div id="top-intro">
+        <div id="top-title">Network of Gods in Greek Mythology</div>
+        <div id="top-subtitle">Explore relationships between Gods, Goddesses, and many other divine and semi-devine creatures from Greek Mythology.
+        </div>
+
+    </div>
+    <div id="buttons" style="text-align:center;">
+        <button type="button" class="filter-btn" id="Primordial" value="1">Primordial Gods</button>
+        <button type="button" class="filter-btn" id="Titans" value="2">Titans</button>
+        <button type="button" class="filter-btn" id="Olympians" value="3">Olympians</button>
+        <button type="button" class="reset-btn">Reset</button>
+
+    </div>
+    
+
+    <div id="mythos-chart" class="svg-container"></div>
+
+    <div id="credit">Created by Dee </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
+

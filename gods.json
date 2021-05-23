@@ -1,0 +1,848 @@
+{
+    "nodes": [
+        {"id": "Chaos", "group": 1, "group_name": "Primordial Gods", "value": 15, "description":"<b>Chaos</b> (Greek: Χάος), the origin of everything, refers to the void state preceding the creation of the cosmos, the primal feature of the universe."},
+        
+        {"id": "Erebus", "group": 1, "group_name": "Primordial Gods", "value": 10, "description":"<b>Erebus</b> (Greek: 'Ερεβος) was one of the primordial deities born from Chaos. He personified the 'darkness' between earth and Hades. He was the consort of Nyx (Night) with whom he fathered several deities including Hemera (Day) and Aether (Light)."},
+        {"id": "Nyx", "group": 1, "group_name": "Primordial Gods", "value": 10,"description": "<b>Nyx</b> (Night, Greek: Νύχτα), was the primordial goddess of the night. She mothered numerous primordial gods, including Hypnos (Sleep), Oneiroi (Dreams), Thanatos (Death), The Moirai (Fates), Eris (Strife) and Nemesis (Karma)."},
+        {"id": "Gaea (Earth)", "group": 1, "group_name": "Primordial Gods", "value": 20, "description": "Born at the dawn of creation, <b>Gaea</b> (Earth Greek:Γη) was the great mother of all creation. Without a mate, she brought forth Pontus (the Sea), Ourea (Mountains), and Ouranus (Sky) from whom she subsequently gave birth to the <b>Titans</b>."},
+        {"id": "Tartarus", "group": 1, "group_name": "Primordial Gods", "value": 13, "description": "<b>Tartarus</b> (Underworld, Greek: Τάρταρος) was the third of the primordial deities, following Chaos and Gaea, representing the depths and caves beneath the earth. It was a <b>place in the underworld</b> guarded by Hecatonchires that was used as a dungeon of torments where souls were judged after death."},
+
+        {"id": "Typhoeus", "group": 4, "group_name": "Giants", "value": 7, "description": "<b>Typhoeus</b> (or Typhon) was a <b>monstrous serpentine, winged giant</b> who laid siege to overthrown Zeus but was defeated and imprisoned in the pit of Tartaros. Typhon and his consort Ekhidna were the progenitors of many famous monsters."}, 
+
+        {"id": "Hemera", "group": 1, "group_name": "Primordial Gods", "value": 7,"description": "<b>Hemera</b> (Day, Greek: Ημέρα) was a primordial goddess, the personification of <b>day<b/>."}, 
+        {"id": "Aether", "group": 1, "group_name": "Primordial Gods", "value": 7,"description": "<b>Aether</b> (or Aither, Greek: Αιθέρας), the personification of the 'upper sky'."},
+        {"id": "Thanatos", "group": 5, "group_name": "Daimones", "value": 5,"description": "<b>Thanatos</b> (Death, Greek: Θάνατος) was the personified spirit of <b>non-violent death</b> - his equivalent in Roman mythology is Mors."},
+        {"id": "Oneiroi", "group": 5, "group_name": "Daimones", "value": 7,"description": "Brothers of Hypnos (Sleep), <b>Oneiroi</b> (Greek:Όνειροι) were the personification of <b>dreams</b>."},
+        {"id": "Hypnos (Sleep)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Hypnos</b> (Greek: Ύπνος) the personification of <b>sleep</b>, twin brother of Thanatos and father of Oneiroi. His name is the origin of the word hypnosis."},
+        {"id": "Epiphron", "group": 5, "group_name": "Daimones", "value": 5,"description": "<b>Epiphron</b> (Greek: Έπιφρων) was the personified spirit (daimon) of <b>prudence, shrewdness, carefulness and sagacity</b>."},
+        {"id": "Eris", "group": 5, "group_name": "Daimones", "value": 7,"description": "<b>Eris</b> (Strife, Greek: Έρις) was the goddess or personified spirit of <b>strife, discord, contention and rivalry</b>. She is known for the <b>Golden Apple of Discord</b> (Greek: μήλον της Έριδος) that she tossed in the midst of Peleus and Thetis wedding inscribed 'To the fairest', sparking a vanity-fueled dispute among Hera, Athena, and Aphrodite that eventually led to the Trojan War!"},
+        {"id": "Oizys (Misery)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Oizys</b> (Greek: Οιζυς) was the personified spirit of <b>misery, depression, and anxiety</b>."},
+        {"id": "Sophrosyne", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Sophrosyne</b> (Greek: Σωφροσύνη) was the personified spirit of <b>moderation, self-control, temperance, restraint, discretion, and purity</b>. She was one of the good spirits to escape Pandora's box and abandoned mankind in her flight back to mount Olympus."}, 
+        {"id": "Hybris (Insolence, Arrogance)", "group": 5, "group_name": "Daimones", "value": 5,"description": "<b>Hybris</b> (Greek: Ύβρις) was the daimon of <b>insolence</b>, hubris, violence, reckless pride, arrogance, and outrageous behaviour."}, 
+        {"id": "Nemesis (Retribution/Karma)", "group": 5, "group_name": "Daimones", "value": 5,"description": "<b>Nemesis</b> (Greek: Νέμεσις comming from the word 'νέμω' - distribute, deal out) was the spirit who enacted retribution against those who succumbed to hubris (arrogance before the gods). Measuring happiness and unhappiness, she was responsible in directing human affairs so equilibrium was maintained."},
+        {"id": "Charon", "group": 5, "group_name": "Daimones", "value": 7,"description": "<b>Charon</b> (or Kharon, Greek: Χάρων), an underworld spirit, the ferryman of Hades who carried the souls of the dead across the river Styx. His fee was a single coin, an 'obolos', which was placed in the mouth of a dead person upon burial. The myth suggests that those who could not pay the fee had to wander the shores for one hundred years to be allowed to cross the river!"},
+        {"id": "Hesperides (Daughters of the Evening)", "group": 6, "group_name": "Nymphs", "value": 5,"description": "<b>The Hesperides</b> (Greek: Εσπερίδες) were three beautiful sisters goddess-numphs of evening. They were entrusted with the care of the <b>'tree of the golden apples'</b> assisted by a hundred headed guardian dragon. Hercules, as one of the twelve labours, was sent to steal the golden apples from the garden of hesperides."},
+        {"id": "Philotes (Friendship)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Philotes</b> (Greek: Φιλοτης, Φιλία) was the personified spirit of friendship and affection."},
+        {"id": "Eleos", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Eleos</b> (Mercy, Greek: Έλεος) was the personified spirit of mercy."}, 
+
+        {"id": "Moros (Doom)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Moros</b> (Greek: Μόρος) The personified spirit of impending <b>doom</b>, who drives mortals to their deadly fate, the most feared entity in creation."},
+        {"id": "Geras (Old Age)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Geras</b> (Greek: Γέρας) was the personified spirit of <b>old age</b>."},
+        {"id": "Keres", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Keres</b> (Greek: Κήρες) were vile female spirits of <b>violent or cruel death</b> who were drawn to collect the souls of warrios killed in battlefields. They were agents of the Moirai (The Fates) and Moros."},
+        {"id": "Apate (Deceit)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Apate</b> (Greek: Απάτη) was the personified spirit of <b>deceit</b> and <b>fraud</b>. Her male counterpart was Dolos, spirit of trickery."},
+        {"id": "Momos (Mockery)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Momos</b> (or Momus, Greek: Μωμός) was the personified spirit of <b>mockery</b> and <b>satire</b>."},
+        {"id": "The Moirai", "group": 3, "group_name": "Olympian Gods", "value": 7,"description": "<b>The Moirai</b> (Fates, Greek: Μοίρες) were the three goddesses of fate, <b>the incarnations of destiny</b>."},
+
+        {"id": "Clotho (Spinner)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Clotho</b> (or Klotho, Greek: Κλωθώ) was the first of the three Moirai (Fates) that <b>spins the thread of human life</b>."},
+        {"id": "Lakhesis (Alloter)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Lakhesis</b> (Λάχεσις) was the second of the three Moirai (Fates), the measurer of the thread spun on Clotho's spindle or <b>thread of life</b>."},
+        {"id": "Atropos (Unturnable)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Atropos</b> (Greek: Άτροπος) was the oldest of the three Fates, the one responsible for <b>cutting the thread of life</b> working alongside with her sisters Clotho and Lakhesis."},
+
+
+        {"id": "Thalassa (Sea)", "group": 1, "group_name": "Primordial Gods", "value": 3,"description": "<b>Thalassa</b> (Greek: Θάλλασσα), goddess of the Sea, the female counterpart of Pontus."},
+
+        {"id": "Morpheus (Fashioner)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Morpheus</b> ('Fashioner' derived from the greek word μορφή meaning 'form, shape') was the leader of the Oneiroi (Dreams). This spirit was believed it could take any human form to appear in dreams."},
+        {"id": "Ikelos", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Ikelos</b> (Greek: Ίκελος) was one of the Oneiroi spirits and was believed to shape the dreams which came to man."},
+        {"id": "Phobetor (Frightener)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Phobetor</b> (Greek: Φοβήτωρ) was one of the oneiroi spirits, appearing in dreams in the form of beasts, known as the god of nightmares."},    
+        {"id": "Phantasos (Fantasy)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Phantasos</b> (Greek: Φάντασος) whose name is 'fantasy' or 'apparition' was one of the Oneiroi known as the god of surreal dreams."},
+
+        {"id": "Neikea (Quarrles)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Neikea</b> (Quarrles, Greek: Νείκεα) were the personified spirits of quarrels, feuds, and grievances, released from Pandora's box."},
+        {"id": "Phonoi (Murders)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Phonoi</b> (Murders, Greek: Φόνος) were the personified spirits of murder, killing, and slaughter outside of war, released from Pandora's box."}, 
+        {"id": "Makhai (Wars)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Makhai</b> (Wars, Greek: Μάχες) were the personified spirits of fighting and combat, released from Pandora's box."}, 
+        {"id": "Hysminai (Fight)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Hysminai</b> (Fight, Greek: Υσμίναι) together with their sisters Makhai were the personified spirits of fighting and combat."}, 
+        {"id": "Psedologoi (Lies)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Pseudologoi</b> (Lies) were the personified spirits (daimones) of lies and falsehoods, released from Pandora's box."}, 
+        {"id": "Aphilogiai (Disputes)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Aphilogiai</b> (Disputes, Greek: Αμφιλογίαι) were the female spirits (daimones) of disputes and altercations."},
+        {"id": "Dysnomia (Anarchy)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Dysnomia</b> (Anarchy, Greek: Δυσνομία) was the personifiied spirit of lawlessness and poor civil order that shares her nature with Ate (Ruin)."}, 
+        {"id": "Ate (Ruin)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Ate</b> (Greek: Άτη) spirit of mischief, delusion, ruin, and folly, it refers to action performed by a hero that leads to their death or downfall."},
+        {"id": "Horkos (Oath)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Horkos</b> or Horkus (Greek: Όρκος) was the personified spirit of oaths who punished perjurers."},
+        {"id": "Androktasiai (Manslaughters)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>The Androktasiai</b> (Manslaughters, Greek: Ανδροκτασία) were the female spirits (daimones) of battlefield slaughter, released from Pandora's box."},
+        {"id": "Limos (Starvation)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Limos</b> (Greek: Λιμός) was the personified daimon of hunger and starvation. His or her opposite number were Demeter, goddess of food, and the daimon Ploutos (Plenty). Limos was one of the evil spirits released from Pandora's box."},
+        {"id": "Algea (Pain)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Algea</b> (Greek: Άλγος) were the personified spirits (daimones) of pain and suffering, both physical and mental, grief, sorrow and distress.The three known Algea are Lupe (Λύπη – pain, sadness), Achos (Ἄχος – grief, distress), and Ania (Ἀνία – 'sorrow')."}, 
+        {"id": "Ponos (Labour)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Ponos</b> (Greek: Πόνος) was the personified spirit of hard labour and toil, released from Pandora's box."},
+        {"id": "Lethe (Forgetfulness)", "group": 5, "group_name": "Daimones", "value": 3,"description": "<b>Lethe</b> (Greek: Λήθη), waters of forgetfulness, was one of the five rivers of the underworld of Hades who personified 'oblivion'."},
+
+        {"id": "Ourea (Mountains)", "group": 1, "group_name": "Primordial Gods", "value": 10,"description": "<b>Ourea</b> (Greek:Ούρεα) were the primordial gods of the <b>mountains</b>."},
+        {"id": "Aitna", "group": 1, "group_name": "Primordial Gods", "value": 5,"description": "<b>Aitna</b>, the goddess of the volcano of Sicily."},
+        {"id": "Athos", "group": 1, "group_name": "Primordial Gods", "value": 5,"description": "<b>Athos</b>, god of the mountain of Athos in Thrace (north of Greece)."},
+        {"id": "Helikon", "group": 1, "group_name": "Primordial Gods", "value": 5,"description": "<b>Helikon</b> was the mountain-god of Boeotia (central Greece)."},
+        {"id": "Kithairon", "group": 1, "group_name": "Primordial Gods", "value": 5,"description": "<b>Kithairon</b>, the god mountain of Kithairon (central Greece) neighbouring mount Helikon."},
+        {"id": "Nysos", "group": 1, "group_name": "Primordial Gods", "value": 5,"description": "<b>Nysos</b>, mountain-god that was the nurse of the god Dionysos."},
+        {"id": "Oreios", "group": 1, "group_name": "Primordial Gods", "value": 5,"description": "<b>Oreios</b>, god of Mount Othrys in Malis (central Greece)."},
+        {"id": "Tmolos", "group": 1, "group_name": "Primordial Gods", "value": 5,"description": "<b>Tmolos</b>, mountain-god of Lydia who was the judge of a musical contest between Apollon and Pan."},
+
+        {"id": "Pontus (Sea)", "group": 1, "group_name": "Primordial Gods", "value": 10,"description": "<b>Pontus</b> (Greek:Πόντος) was the primordial god or <b>personification of the sea</b>, born by Gaea."},
+        {"id": "Phorkys", "group": 8, "group_name": "Greek Gods", "value": 10,"description": "<b>Phorkys</b> was the primordial sea-god of the hidden dangers of the deep."},
+        {"id": "Keto", "group": 8, "group_name": "Greek Gods", "value": 5,"description": "<b>Keto</b>, sister of Phorkys, was the primordial sea-goddess of sea monsters."},
+        {"id": "Nereus", "group": 8, "group_name": "Greek Gods", "value": 5,"description": "<b>Nereus</b> (Greek: Νηρεύς) was the <b>'old man of the sea'</b> (Homer), the eldest son of Gaea (Earth) from Pontus (Sea). The Nereids (sea numphs) were his daughters by Doris, and he lived with them in the depths of the sea."},
+
+        {"id": "Thaumas", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Thaumas</b> (Greek: Θαύμας) was a sea god, son of Pontus (Sea) and Gaea (Earth), that personified the <b>wonders of the sea</b>."},
+        {"id": "The Gorgons", "group": 9, "group_name": "Bestiary", "value": 10,"description": "<b>The Gorgons</b> (Greek: Γοργόνες) were three powerful, winged sisters with hair made from living, venomous snakes."},
+        {"id": "Medusa", "group": 9, "group_name": "Bestiary", "value": 7,"description": "<b>Medusa</b> (Greek: Μέδουδα) was the only mortal of the monstrous Gorgons. According to the myth, she was decapitated by Perseus who then used her head which kept its ability to turn onlookers to stone as a weapon. From the wounds two creatures emerged Pegasus and Chrysaor, offsprings of Medusa from Poseidon."},
+        {"id": "Stheno", "group": 9, "group_name": "Bestiary", "value": 3,"description": "<b>Stheno</b> (forceful) was the eldest of the monstrous Gorgons."},
+        {"id": "Euryale", "group": 9, "group_name": "Bestiary", "value": 3,"description": "<b>Euryale</b> (far-roaming, Greek: Ευρυάλη) was the second eldest of the Gorgons."},
+
+        {"id": "Pegasus", "group": 9, "group_name": "Bestiary", "value": 10,"description": "<b>Pegasus</b> (or Pegasos, Greek: Πήγασος) was an <b>immortal, winged horse</b>. It was tamed by Bellerophon who rode it into battle against the monstrous Chimera."},
+        {"id": "Chrysaor", "group": 4, "group_name": "Giant", "value": 10,"description": "<b>Chrysaor</b> (Greek: Χρυσάωρ) was the brother of Pegasus, son of the monstrous Gorgon, Medusa. His was monstly described as a giant and his name can be translated as 'the one with the golden sword'."},  
+        
+        {"id": "Eurybia", "group": 8, "group_name": "Greek Gods", "value": 5,"description": "<b>Eurybia</b> (wide force, Greek: Ευρυβία) was the daughter of Pontus (Sea) and Gaea (Earth). She was the goddess of power over sea."},
+        {"id": "Ekhidna", "group": 9, "group_name": "Bestiary", "value": 10, "description": "<b>Ekhidna</b> (Greek: Έχιδνα, 'she-viber') was a <b>monstrous sea-dragon</b>, half woman and half serpent. She was the mother of numerous monsters including Khimaira and Kerberos."}, 
+        {"id": "Orthos", "group": 9, "group_name": "Bestiary", "value": 3, "description": "<b>Orthos</b> (Greek: Όρθος) was a <b>two-headed, serpent-tailed dog</b> which guarded the Geryon's cattle and was killed by Heracles (Hercules) as one of his twelve labours."}, 
+        {"id": "Kerberos", "group": 9, "group_name": "Bestiary", "value": 3, "description": "<b>Kerberos</b> (Greek: Κέρβερος) was the gigantic, <b>three-headed hound of Haides</b> which guarded the gates of the underworld to prevent the dead from escaping."}, 
+        {"id": "Hydra", "group": 9, "group_name": "Bestiary", "value": 3, "description": "<b>Lernaean Hydra</b> (Greek: Λερναία Ύδρα) was a <b>gigantic, nine-headed water-serpent</b>, which haunted the swamps of Lerna. She was killed by Herakles (Hercules) as one of his twelve labours."}, 
+        {"id": "Khimaira", "group": 9, "group_name": "Bestiary", "value": 3, "description": "<b>Khimaira</b> (or Chimera, Greek: Χίμαιρα, 'she-goat') was a <b>three-headed fire-breathing monster</b>. It was depicted as a creature with the body and head of a lion and a goat's head rising from its back."}, 
+        {"id": "Sphinx", "group": 9, "group_name": "Bestiary", "value": 3, "description": "<b>Sphinx</b> (Greek: Σφινξ) was a <b>female, merciless monster</b> with the head of a woman and the body of a lion with eagle's wings."}, 
+        {"id": "Nemean Lion", "group": 9, "group_name": "Bestiary", "value": 3, "description": "<b>Nemean Lion</b> (Greek: Λέων της Νεμέας) was a <b>vicious lion monster</b> that its golden fur was imprevious to attack. It has killed by Heracles (Hercules) on his first labour."},
+
+        {"id": "Ouranos (Sky)", "group": 1, "group_name": "Primordial Gods", "value": 20,"description": "Ouranos</b> (or Uranus, Greek:Ουρανός) was the primordial god of the Sky (or heaven). He was the first ruler of the cosmos and from his union with Gaia (Earth) were born the <b>Titans</b>, Cyclopes, and Hecatonchires. Repelled by the sight of Cyclopes and Hecatoncheires, Ouranos pushed them into Gaea' s womb! This caused the resentment of Gaia whom plotted to overthrown him. Ouranos was finally castrated and deposed by his own son Kronos."},
+
+        {"id": "Cyclopes", "group": 4, "group_name": "Giants", "value": 10,"description": "<b>The Cyclopes</b> (Greek: Κύκλωπες, meaning 'circled eyed') were gigantic, one-eyed beings with enormous strength."},
+        {"id": "Brontes (Thunder)", "group": 4, "group_name": "Giants", "value": 3,"description": "<b>Brontes</b> (Greek: Βροντή) was the eldest of the Cyclopes, the giant one-eyed creatures. "},
+        {"id": "Steropes (Lightning)", "group": 4, "group_name": "Giants", "value": 3,"description": "<b>Steropes</b> (Greek: Στερόπης) one of the Cyclopes."},
+        {"id": "Arges (Brightness)", "group": 4, "group_name": "Giants", "value": 3,"description": "<b>Arges</b> (Greek: Άργης meaning white) one of the Cyclopes."},
+    
+        {"id": "Hecantocheires (Hundred-Handed Giants)", "group": 4, "group_name": "Giants", "value": 5,"description": "<b>Hecantocheires</b> or Hundred-Handed Giants (Greek: Εκατόγχειρες) were three monstrous giants, sons of Ouranos and Gaea, brothers of Cyclopes, each having a hundred hands for wielding clouds and fifty heads for blustering winds. During Titanomachy Hecatoncheires fought alongside with Olympians. When Titans were defeated they were prisoned in Tartarus with the Hecatoncheires as their guards."}, 
+        {"id": "Briareus or Aegaeon", "group": 4, "group_name": "Giants", "value": 3,"description": "<b>Briareus</b>, the vigorous one, or Aegaeon, the sea goat, (Greek: Βριάρεως ή Αιγαίων)  was the most prominent of the three Hecantocheires."}, 
+        {"id": "Kottos (The Furious)", "group": 4, "group_name": "Giants", "value": 3,"description": "<b>Kottos</b> (or Cottus, Greek: Κόττος) was one of the Hecantocheires."},
+        {"id": "Gyes (The Long-limbed)", "group": 4, "group_name": "Giants", "value": 3,"description": "<b>Gyes</b> (or Gyges, Greek: Γύγης) was one of the Hecantocheires."}, 
+
+        {"id": "Kronos", "group": 2, "group_name": "Titans", "value": 15,"description": "<b>Kronos</b> (or Cronos, Greek:Κρόνος) was the King of the Titans and god of time. He overthrew his father and ruled during the mythological Golden Age. Warned by a prophecy that he would be dethroned by his own children, he swallowed each of his children as they were born except Zeus that Rhea raised in secret.  After Zeus was grown up he overthrowned Kronos and imprisoned him in Tartarus!"},
+        {"id": "Koios", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Koios</b> (or Coeus, Greek: Κοίος), god of the intellect."},
+        {"id": "Krios", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Krios</b> (or Crius, Greek: Κριός),  god of the heavenly constellations and the measure of the year."}, 
+        {"id": "Iapetos", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Iapetos</b> (or Iapetus, Greek: Ιαπετός), god of mortality."},
+        {"id": "Hyperion", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Hyperion</b> (Greek: Υπερίων), 'the high one', father of the sun, the moon, and the dawn."},
+        {"id": "Oceanus", "group": 2, "group_name": "Titans", "value": 15,"description": "<b>Oceanus</b> (Greek: Ωκεανός) was the Titan god father of the river gods and the Oceanids."},
+
+        {"id": "Helios (Sun)", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Helios</b> (Greek: Ήλιος) was the personification of the sun, the Titan god of sight, and also guardian of oaths."},
+        {"id": "Selene (Moon)", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Selene</b> (Greek: Σελήνη) was a Titan goddess, the personification of the moon and sister of Helios (Sun) and Eos (dawn)."},
+        {"id": "Eos (Dawn)", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Eos</b> (Greek: Ήως) was a Titan goddess, the personification of the dawn."},
+
+        {"id": "Theia", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Theia</b> (or Thea, Greek: Θεία) , also known as Euryphaessa, goddess of sight."},
+        {"id": "Themis", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Themis</b> (Greek: Θέμις), goddess of divine law and order."},
+        {"id": "Phoibe", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Phoibe</b> (or Phoebe, Greek: Φοίβη), associated with the moon and the Oracle of Delphi, and was considered to be the goddess of prophecy."}, 
+        {"id": "Tethys", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Tethys</b> (Greek: Τηθύς), mother of the river gods and the Oceanids (sea nymphs)."},
+        {"id": "Mnemosyne", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Mnemosyne</b> (Greek: Μνημοσύνη) goddess of memory, mother of the nine Muses."}, 
+        {"id": "Rhea", "group": 2, "group_name": "Titans", "value": 15,"description": "<b>Rhea</b> (Greek: Ρέα) was the queen of the Titans. She gave birth to Hestia, Hades, Demeter, Poseidon, Hera whom Kronos swallowed after they were born."},
+
+        {"id": "Leto", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Leto</b> (Greek: Λητώ) was the Titan goddess of motherhood and a protectress of the young. She was the mother of Artemis and Apollo."},
+        {"id": "Asteria", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Asteria</b> (Greek: Αστερία) was the Titan goddess of falling stars. She gave birth to Hecate by the Titan Perses."},
+
+        {"id": "Hecate", "group": 8, "group_name": "Greek Gods", "value": 5,"description": "<b>Hecate</b> (Greek: Εκάτη) was the goddess of witchcraft and necromancy. She was also associated with crossroads, entrance-ways, and often depicted holding a pair of torches. According to the myth, she guided Demeter in her search for her daughter, Persephone, in the underworld."},
+        {"id": "Perses", "group": 8, "group_name": "Greek Gods", "value": 5,"description": "<b>Perses</b> (Greek: Περσαίας) was the Titan god of destruction and father of Hecate."},
+        {"id": "Astraios", "group": 8, "group_name": "Titans", "value": 10,"description": "<b>Astraios</b> (or Astraeus, Greek: Αστραίος - starry) was the Titan god of stars and planets and of the art of astrology. He was the father of the four Anemoi (winds)."},
+        {"id": "Boreas", "group": 8, "group_name": "Greek Gods", "value": 3,"description": "<b>Boreas</b> (Greek: Βορέας) associated with the cold breath of winter, was the god of the North-Wind, one of the Anemoi."},
+        {"id": "Zephyrus", "group": 8, "group_name": "Greek Gods", "value": 3,"description": "<b>Zephyrus</b> (Greek: Ζέφυρος) was the god spring and the West-Wind, one of the Anemoi."},
+        {"id": "Notos", "group": 8, "group_name": "Greek Gods", "value": 3,"description": "<b>Notos</b> (Greek: Νότος) was the god of summer and the South-Wind, one of the Anemoi."},
+        {"id": "Eurus", "group": 8, "group_name": "Greek Gods", "value": 3,"description": "<b>Eurus</b> (Greek: Εύρος) was the god of the East-Wind, one of the Anemoi."},
+
+        {"id": "Pallas (Titan)", "group": 2, "group_name": "Titan", "value": 5,"description": "<b>Pallas</b> was the Titan god of battle and warcraft, son of Krios and Eurybia."},
+
+        {"id": "The Muses", "group": 3, "group_name": "Olympian Gods", "value": 10,"description": "<b>The Muses</b> (or Mousai, Greek: Μούσες) were the goddesses of music, song and dance, and the source of inspiration to poets."},
+        {"id": "Calliope", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Calliope</b> (or Kalliope, Greek: Καλλιόπη) was the muse of epic poetry. She was the eldest of the Muses and gave birth to the legendary bard Orpheus."},
+        {"id": "Orpheus", "group": 10, "group_name": "Kings & Heroes", "value": 3,"description": "<b>Orpheus</b> (Greek: Ορφέας) was the most important musician in Greek mythology. His music could charm any living thing. The most famous story about Orpheus was his attempt to retrieve his wife Eurydike from the underworld by persuading Hades with his music."},
+        {"id": "Clio", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Clio</b> (or Kleio, Greek: Κλειώ) was the Muse of history."},
+        {"id": "Erato", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Erato</b> (Greek: Ερατώ) was the Muse of lyric and love poetry."}, 
+        {"id": "Euterpe", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Euterpe</b> (Greek: Ευτέρπη) was the Muse of lyric poetry."},
+        {"id": "Melpomene", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Melpomene</b> (Greek: Μελπομένη) was the Muse of tragedy."},
+        {"id": "Terpsichore", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Terpsichore</b> (Greek: Τερψιχόρη) was the Muse of dance."},
+        {"id": "Thalia", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Thalia</b> (Greek: Θάλεια, the 'flourishing') was the Muse of comedy and idyllic poetry."},
+        {"id": "Urania", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Urania</b> (Greek: Ουρανία) was the Muse of astronomy. Her names derives from Ouranos, the primordial god of the sky."}, 
+
+        {"id": "Nilus (Nile)", "group": 5 , "group_name": "Greek Gods", "value": 5, "description": "<b>Nilus</b> was one of the river gods children of Oceanus and Tethys."},
+    
+        {"id": "Metis (Wisdom)", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Metis</b> (Greek: Μήτις) was one of the elder Okeanides and the Titan-goddess of good counsel, planning, the mother of wisdom and deep thought. According to the myth, Metis crafted the potion that caused Kronos to yield up his children."},
+        {"id": "The Oceanids", "group": 6, "group_name": "Numphs", "value": 10,"description": "<b>Oceanids</b> or Oceanides (Greek: Ωκεανίδες) were three thousand water-nymphs, including the Nephelai (Cloud-Nymphs), Aurai (Breeze-Nymphs), Naiades (Spring and Fountain Nymphs), Leimonides (Pasture Nymphs), and Anthousai (Flower Nymphs)."},
+        {"id": "Clymene", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Clymene</b> (or Klymene, Greek: Κλυμένη) was one of the eldest Oceanids and the Titan goddess of fame and renown. Amongst other she was the mother of Atlas and Prometheus."},
+        {"id": "Atlas", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Atlas</b> (Greek: Άτλας) was Titan god that personified the quality of endurance. He was the leader of the Titans during the Titanomachy, the strongest opponent of Zeus. After the defeat of Titans, Atlas was condemned to hold up the sky in his shoulders for eternity."},
+        {"id": "Pleione", "group": 6, "group_name": "Nymphs", "value": 5,"description": "<b>Pleione</b> (Greek: Πληιόνη, 'saling queen') was an Oceanid nymph, wife of Atlas, mother of Pleiades"},
+        {"id": "Prometheus", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Prometheus</b> (Greek: Προμηθεύς) was the Titan god of forethought and fire who was given the task of moulding humankind out of clay. Prometheus stole fire for humankind, as a punishment Zeus sentenced him to eternal torment; he was chained to a rock and eagles were sent to eat his liver every day until eternity. He was later freed by Heracles (Hercules)."},
+        {"id": "Epimetheus", "group": 2, "group_name": "Titans", "value": 10,"description": "<b>Epimetheus</b> (Greek: Eπιμηθεύς) was the Titan god of hindsight, brother of Prometheus, and the consort Pandora"},
+        {"id": "Menoetius", "group": 2, "group_name": "Titans", "value": 5,"description": "<b>Menoetius</b> was an younger Titan, son of Iapetus and Clymene. His name means 'doomed might' and he was probably considered the god of violent rage. In the Titanomachy, he wa a powerful opponent but Zeus destroyed him with one of his thunderbolts and banished him to Tartarus."},
+
+        {"id": "Hesione", "group": 6, "group_name": "Nymphs", "value": 7,"description": "<b>Hesione</b> was the wife of Prometheus. She was an Oceanid nymph, minor goddess of foresight."},
+
+        {"id": "The Pleiades", "group": 6, "group_name": "Nymphs", "value": 10,"description": "<b>Pleiades</b> (Greek: Πλειάδες) were seven mountain-numphs, companions of Artemis, daughters of Atlas and sea-nymph Pleione. The were named in honour of her mother Pleiades, however, sometimes called Antlantides."},
+        {"id": "Calypso", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Calypso</b> (Greek: Καλυψώ) was a nymph daughter of Atlas that according to Odyssey detained Odysseus for seven years. Her name derives from the greek word καλύπτω - 'to cover', 'to conceal'."},
+        {"id": "Taygete", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Taygete</b> was one of the Pleiades and a consort of Zeus."},
+        {"id": "Elektra (Pleiades)", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Elektra</b> (or Electra) was one of the Pleiades and a consort of Zeus."},
+        {"id": "Alkyone", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Alkyone</b> was one of the Pleiades and a consort of Poseidon."},
+        {"id": "Sterope", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Steripe</b> was one of the Pleades, a consort of Poseidon and Prometheus."},
+        {"id": "Kelaino", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Kelaino</b> was one of the Pleiades and consort of Poseidon."},
+        {"id": "Maia", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Maia</b> was the eldest of the Pleiades, mother of Hermes by Zeus."},
+        {"id": "Merope", "group": 6, "group_name": "Nymphs", "value": 3,"description": "<b>Merope</b> was the youngest of the Pleiades."},
+ 
+        {"id": "The Potamoi", "group": 8, "group_name": "Greek Gods", "value": 5,"description": "<b>The Potamoi</b> (Greek: Ποταμοί) were the gods of the rivers and streams of the earth, sisters of the the Oceanids."},
+        {"id": "The Nephelai", "group": 6, "group_name": "Numphs", "value": 5,"description": "<b>The Nephelai</b> were Oceanids nymphs of clouds and rain. Their name comes from the greek word 'νέφος' (nephos) meaning cloud."},
+        {"id": "The Kerkopes", "group": 9, "group_name": "Bestiary", "value": 3,"description": "<b>Kerkopes</b> or Cercopes (Greek: Κέρκοπες) were mischievous forest creatures (monkey liked) who lived in Thermopylae."},
+        {"id": "Triptolemos", "group": 8, "group_name": "Greek Gods", "value": 3,"description": "<b>Triptolemos</b> was a figure related to goddess Demeter of the Eleusinian Mysteries."},
+
+        {"id": "Styx", "group": 7, "group_name": "Underwold Gods", "value": 5,"description": "<b>Styx</b> (Greek: Στυξ) was the goddess of the underworld River Styx, that formed the boundary between Earth and the Underwold, under the personal command of Hades. According to the myth, Achilles was dipped into the waters of the river that had miraculous powers acquiring invulnerability and great strength, with the exception of his heel by which his mother held him from; his weal point."},
+        {"id": "Doris", "group": 6, "group_name": "Nymphs", "value": 5,"description": "<b>Doris</b> was the Oceanid nymph wife of the sea god Nereus. She was considered the goddess of the fertility of the ocean."},
+        {"id": "Elektra (Oceanid)", "group": 6, "group_name": "Nymphs", "value": 5,"description": "<b>Elektra</b> (Greek: Ηλέκτρα, 'amber') was the Oceanid nymph wife of the sea god Thaumas according to Hesiod, and the mother of Iris (the rainbow) and the Harpies."},
+        {"id": "The Aurai", "group": 6, "group_name": "Nymphs", "value": 5,"description": "<b>The Aurai</b> were nymphs of the breezes"},
+
+        {"id": "Iris", "group": 3, "group_name": "Olympian Gods", "value": 7,"description": "<b>Iris</b> (Greek: Ίρις) was the goddess of the rainbow and the messenger of the Olympian gods."},
+        {"id": "Arke", "group": 8, "group_name": "Greek Gods", "value": 7,"description": "<b>Arke</b> (Greek: Άρκη) was the twin sister of the rainbow goddess Iris. During Titanomachy, she sided with the Titans becoming their messenger while her twin sister Iris became the messenger of the Olympians. When the Olympians won, Zeus sent Arke to Tartarus as a punishment."},
+
+        {"id": "The Harpies", "group": 9, "group_name": "Bestiary", "value": 10,"description": "<b>The Harpies</b> (or Harpyai, Greek: Άρπθαι) were the spirits of sudden, sharp gusts of wind (wirlwinds), having the form of a bird and a human face."},
+
+        {"id": "Okypete", "group": 9, "group_name": "Bestiary", "value": 3,"description": "<b>Okypete</b> or Ocypete (swift wing) was one of the Harpies."},
+        {"id": "Aello", "group": 9, "group_name": "Bestiary", "value": 3,"description": "<b>Aello</b> (storm swift) was one of the Harpies."},
+        {"id": "Celaeno", "group": 9, "group_name": "Bestiary", "value": 3,"description": "<b>Celaeno</b> (dark) was one of the Harpies."},
+
+        {"id": "Nike (Victory)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description": "<b>Nike</b> (Greek: Νίκη) was the winged goddess who personified victory."},
+        {"id": "Kratos (Strength)", "group": 5, "group_name": "Daimones", "value": 3, "description": "<b>Kratos</b> (or Cratos, Greek: Κράτος) was the devine personification of strength, power and sovereign rule."},
+        {"id": "Zelos (Rivalry)", "group": 5, "group_name": "Daimones", "value": 3,"description":"<b>Zelos</b> (or Zelus, Greek: Ζήλος) was the personification of eager rivarly and envy."},
+        {"id": "Bia (Force)", "group": 5, "group_name": "Daimones", "value": 3, "description":"<b>Bia</b> (Greek: Βία) was the personification of mighty force, sister of Zelos, Kratos, and Nike."},
+
+        {"id": "The Nereides", "group": 6, "group_name": "Nymphs", "value": 5, "description":"<b>The Nereides</b> (or Nereids, Greek: Νηρηίδες) were fifty sea-nymphs, protectors of sailors and fishermen. Amphitrite was the eldest of the Nereides and wife of Poseidon."},
+
+        {"id": "Ouranos' Blood", "group": 1, "group_name": "Primordial Gods", "value": 10, "description":"Following Ouranos' castration by Kronos pools of blood formed aroung the scene from which living beings emerged amongs them were the Gigantes (Giants), a race of 100 troublesome giants, the Erinyes (Furies), and the Meliae the nymphs of the ash woodlands."},
+        {"id": "The Erinyes (Furies)", "group": 7, "group_name": "Underworld Gods", "value": 7, "description":"<b>Erinyes</b> (Furies, Greek: Ερινύες) were three female cthonic deities of vengeance and retribution who panished men for crimes against the natural order. They emerged from Ouranos's blood after his castration. They were also called ironically Eumenides or 'kindly ones'."},
+        {"id": "Alecto (Remorseless)", "group": 7, "group_name": "Underworld Gods", "value": 3, "description":"<b>Alecto</b> (Remorseless) was one of the Erinyes (Furies), punisher of moral crimes."},
+        {"id": "Megaera (Jealous Rage)", "group": 7, "group_name": "Underworld Gods", "value": 3, "description":"<b>Megaera</b> (Jealous Rage) was one of the Erinyes (Furies), punisher of infidelity, oath breakers, and theft."},
+        {"id": "Tisiphone (Vengeance)", "group": 7, "group_name": "Underworld Gods", "value": 3, "description":"<b>Tisiphone</b> (Vengeance) was one of the Erinyes (Furies), punisher of murderers."},
+    
+        {"id": "The Giants", "group": 4, "group_name": "Giants", "value": 10,"description":"The <b>Giants</b> also called Gigantes (Greek: Γίγαντες) were emerged by the blood of Ouranus when riched Gaia and were possessed by prodigious strength. They are known for the <b>Gigantomachy</b> (or Gigantomachia), their battle with the Olympians."},
+        {"id": "Agrius", "group": 4, "group_name": "Giants", "value": 3,"description":"<b>Agrius</b> Giant"}, 
+        {"id": "Alcyoneus", "group": 4, "group_name": "Giants", "value": 7,"description":"<b>Alcyoneus</b> (or Alkyoneus, Greek: Αλκυονέας) was one <b>King Giant</b>. He was an opponent of hero Heracles (Hercules); Alcyoneus' confrontation with Heracles was part of the Gigantomachy, the cosmic battle of the Giants with the Olympian gods."}, 
+        {"id": "Porphyrion", "group": 4, "group_name": "Giants", "value": 3,"description":"<b>Porphyrion</b> was one <b>King Giant</b> who was killed by Zeus and Heracles (Hercules) for trying to violate goddess Hera."}, 
+
+        {"id": "The Alcyonides", "group": 6, "group_name": "Nymphs", "value": 10,"description":"<b>Alcyonides</b> (or Alkyonides, Greek: Αλκυονίδες) were seven nymph-daughters of Alcyoneus. When Herakles (Hercules) slew their father, they cast themselves into the sea in despair and were transformed by the goddess Amphitrite into kingfishers."},     
+        {"id": "Anthe", "group": 6, "group_name": "Nymphs", "value": 3,"description":"<b>Anthe</b> one of the Alcyonides nymphs."},
+        {"id": "Methone", "group": 6, "group_name": "Nymphs", "value": 3,"description":"<b>Methone</b> one of the Alcyonides nymphs."},
+        {"id": "Alkippa", "group": 6, "group_name": "Nymphs", "value": 3,"description":"<b>Alkippa</b> one of the Alcyonides nymphs."},
+        {"id": "Pallene", "group": 6, "group_name": "Nymphs", "value": 3,"description":"<b>Pallene</b> one of the Alcyonides nymphs."},
+        {"id": "Drimo", "group": 6, "group_name": "Nymphs", "value": 3,"description":"<b>Drimo</b> one of the Alcyonides nymphs."},
+        {"id": "Asterie", "group": 6, "group_name": "Nymphs", "value": 3,"description":"<b>Asterie</b> one of the Alcyonides nymphs."},
+
+        {"id": "Polybotes", "group": 4, "group_name": "Giants", "value": 3,"description":"<b>Polybotes</b> was one Giants that fought the god Poseidon during Gigantomachy."},
+
+        {"id": "The Meliae", "group": 6, "group_name": "Nymphs", "value": 5,"description":"<b>Meliae</b> (or Meliads, Greek: Μελιάδες) were graceful numphs, guardians of an ash tree. Ash trees exude a sugary substance that the in Greek mythology called manna. Manna from ash trees and honey from bees were considered ambrosial foods or foods that had fallen from heaven."},
+        {"id": "Aphrodite", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Aphrodite</b> was the Olympian goddess of love, beauty, pleasure, passion, and procreation. She was born off the coast of Cythera from the castrated genitals of Ouranos in the sea's foam (her name derives from the greek words αφρός - sea foam and δύω - emerge). After her birth she arrived on Cyprus on a scallop shell as famously portrayed in Botticelli's painting."},
+        {"id": "Hestia", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Hestia</b> (Greek: Εστία) was considered one of the great Olympians. She was the virgin goddess of the hearth, the home, and sacrificial flame."},
+        {"id": "Hades", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Hades</b> (Greek: Άδης) was the got of the dead and King of the underworld. Under his command were Erebus (Dark), Nyx (Night) and their son Thanatos (Death), a system of river deities including Styx (hate), Erinyes (Furies), Charon (ferryman of the dead), and the monstrous three headed dog Kerberos (hound of hell). The consort of Hades was Persephone, daughter of Zeus and Demeter."},
+        {"id": "Demeter", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Demeter</b> (Greek: Δημήτηρ) was one of the twelve Olympians, the goddess of harvest and agriculture, presiding over grains and the fertility of the earth.  One of the most famous myths featuring the goddess is that her grief over the abduction of her daughter Persephone from Hades, who had to spend one-third of the year with her husband in the Underworld, created the winter season whilst her joy when Persephone gets her back coincides with the fertile spring and summer months."},
+        {"id": "Poseidon", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Poseidon</b> (Greek: Ποσειδώνας) was one of the twelve Olympians. He was considered god of the sea, floods, earthquakes, drought and horses. He became king of the sea following the defeat of his father Kronos. The Trident was his signature weapon, used to steer up tidal waves and whirlpools. Poseidon lived under the Aegean sea in his palace of coral and pearl with his consort Aphitrite and their son Triton."},   
+        {"id": "Hera", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Hera</b> (Greek: Ήρα) was the wife of Zeus and queen of the Olympians. She was the goddess of marriage and childbirth. One of Hera's defining characteristics is her jealous and vengeful nature against Zeus' numerous lovers and illegitimate offspring, as well as the mortals who cross her."},
+        {"id": "Zeus", "group": 3, "group_name": "Olympian Gods", "value": 20,"description":"<b>Zeus</b> (Greek: Ζεύς ή Δίας) was the King of the Gods and the god of the sky, weather, law and order. He was raised in secrecy by nymphs, so Kronos won't devour him as with his other siblings. With the help of his wife Metis, Zeus forced Kronos disgorge his siblings. He liberated Cyclops and Hecantocheires from Tartartus and together with his sibling they overthrew Kronus and the other Titans."},
+
+        {"id": "Eurynome", "group": 6, "group_name": "Nymphs", "value": 5,"description":"<b>Eurynome</b> (Greek: Ευρυνόμη) was one of the eldest Oceanids, the third bride of Zeus, and mother of The Charites."},
+        {"id": "The Charites", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>The Charites</b> (Three Graces, Greek: Χάριτες) were three goddesses of grace, beauty, adornment, joy, mirth, festivity, dance and song."},
+        {"id": "Aglaea (splendour)", "group": 3, "group_name": "Olympian Gods", "value": 7,"description":"<b>Aglaea</b> (Greek: Ἀγλαΐα ) was the goddess of beauty and splendour, and the wife of the god Hephaistos."},
+        {"id": "Euphrosyne (merriment)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Euphrosyne</b> (Greek: Ευφροσύνη) was one of the Three Graces, the goddess of glee and merriment)."},
+        {"id": "Thalia (cheerfulness)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Thalia</b> (Greek: Θάλεια) was the grace of festivity and cheerfulness. She shares her name with the Muse of comedy."},
+        {"id": "Eukleia", "group": 5, "group_name": "Daimones", "value": 3,"description":"<b>Eukleia</b> (Greek: Ευκλεία) was the personified spirit (daimona) of good repute and glory."},
+        {"id": "Euthenia", "group": 5, "group_name": "Daimones", "value": 3,"description":"<b>Euthenia</b> (Greek: Ευθηνία) was personified spirit of prosperity and abundance."},
+        {"id": "Eupheme", "group": 5, "group_name": "Daimones", "value": 3,"description":"<b>Eupheme</b> (Greek: Εύφημη) was the personified spirit of praise, acclamation, and shouts of triumph."},
+        {"id": "Philophrosyne", "group": 5, "group_name": "Daimones", "value": 3, "description":"<b>Philophrosyne</b> (Greek: Φιλοφροσύνη) was the personified spirit of friendliness and welcome."},
+
+        {"id": "The Horai", "group": 3, "group_name": "Olympian Gods", "value": 7, "description":"<b>The Horai</b> (Hours/Seasons) were two sets thriplet sisters."},
+        {"id": "Auxesia", "group": 3, "group_name": "Olympian Gods", "value": 3, "description":"<b>Auxesia</b> belonged to the first set of thriplet sisters of the Horai."},
+        {"id": "Carpo", "group": 3, "group_name": "Olympian Gods", "value": 3, "description":"<b>Carpo</b> belonged to the first set of thriplet sisters of the Horai. She was the goddess of the fruits of the earth."},
+        {"id": "Thallo", "group": 3, "group_name": "Olympian Gods", "value": 3, "description":"<b>Thallo</b> belonged to the first set of thriplet sisters of the Horai. She was the goddess of spring buds and green shoots."},
+        {"id": "Eunomia (Good Order)", "group": 3, "group_name": "Olympian Gods", "value": 3, "description":"<b>Eunomia</b> (Greek: Ευνομία) belonged to the second set of thriplet sisters of the Horai. Her name suggests (can be translated as 'good order'), she was the goddess of lawful conduct."},
+        {"id": "Dike (Justice)", "group": 3, "group_name": "Olympian Gods", "value": 3, "description":"<b>Dike</b> (Greek: Δίκη) was the goddess of justice."},
+        {"id": "Irene (Peace)", "group": 3, "group_name": "Olympian Gods", "value": 3, "description":"<b>Irene</b> (or Eirine, Greek: Ειρήνη) was the goddess of peace, one of the second generation of the Horai."},
+
+        {"id": "Amphitrite", "group": 8, "group_name": "Greek Gods", "value": 10,"description":"<b>Amphitrite</b> (Greek: Αμφιτρίτη) was the eledest of the Nereides, the goddess of the sea and wife of Poseidon."},
+        {"id": "Triton", "group": 8, "group_name": "Greek Gods", "value": 10,"description":"<b>Triton</b> (Greek: Τρίτων) was a sea god, the merman son of Poseidon and Amphitrite."},
+
+        {"id": "Persephone", "group": 8, "group_name": "Greek Gods", "value": 7,"description":"<b>Persephone</b> (Greek: Περσεφόνη) was the Queen of the underworld, wife of Hades, but also considered as goddess of fertility as the daughter of Demeter."},
+        {"id": "Arion", "group": 8, "group_name": "Greek Gods", "value": 7,"description":"<b>Arion</b> (or Areion, Greek: Αρίον/Αρείων) is a immortal, divine horse. According to the myth, goddess Demeter to avoid the attention from Poseidon she transformed herself into a mare. Poseidon in turn transformed into a stallion and his union with Demeter was Arion."},
+        
+        {"id": "Hephaestus", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Hephaestus</b> (Greek: Ήφαιστος) was the Olympian god of fire, and balcksmiths and metalworking. Hera disgusted by Hephaestus ugly appearance when he was born casted him down from heaven. The infant god was taken care of a Nereid in the island of Lemnos where he learned to forge metal. Hephaestus gained his position back to mount Olympus after he freed Hera from a golden, cursed throne on her wedding with Zeus."},
+        {"id": "Ares", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Ares</b> (Greek: Άρης) was the Olympian god of war and the personification of brutality and violence. Ares had an adulterous affair with the goddess Aphrodite "},
+        {"id": "Athena", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Athena</b> (Greek: 'Αθηνα) was the Olympian goddess of wisdom, justice, warfare, and handicraft. According to the myth the warrior goddess was born from the head of Zeus after he had consorted the Titanness Metis by transforming himself to a lizard and eating her. Athena was often given the forename Pallas. Owls and olive trees were her symbols."},
+        {"id": "Artemis", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Artemis</b> (Greek: Άρτεμις) was the Olympian goddess of hunting, the wilderness, wild animals, chastity, and the moon. She was the patron and protector of young girls and often associated with childbirth.  Artemis' the twin sister was Apollo and her symbols were a bow and an arrow."},
+        {"id": "Apollo", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Apollo</b> (Greek: Απόλλων) was the Olympian god of prophecy and oracles, music and poetry, healing and plagues, and as  his twin sister Artemis of archery and agriculture. The sacred oracle of Delphi (or Delphoi) was his primarily place of worship and he was also associated with the island of Delos where him and his sister Artemis were born. He was considered the fairest of the gods with his ideal proportions representing what we call till this day Apollonian beauty."},
+        {"id": "Hermes", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Hermes</b> (Greek: Ερμής), the messenger of the gods, was the Olympian god of roads and trace (protector of travellers and merchants), hospitality, herds and flocks. He was able to move quickly between the worlds of the mortal and the divine by his signature winged sandals or 'talaria'"},
+    
+        {"id": "Pandora", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Pandora</b> (Greek: Πανδώρα - 'all gifted') was the first female human created by Hephaestus and gifted by each of the gods with a unique talent. She became the wife of Epimetheus. On their wedding day Zeus gave her as a wedding gift a storage jar (Pandora's box) filled with secrets which she was asked not to open. However, Pandora broke her promise and opened the jar releasing the swarm of evil spirits (death, poverty, crime, famine) trapped within, leaving only Elpis (hope) inside, which marked the end of the golden age humanity!"},
+        {"id": "Pyrrha", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Pyrrha</b> (Greek: Πυρρά - fire) was the first queen of the northern Greece. She was Pandora's (the first woman) and Epimetheus daughter. Pyrrha with her cosort Deucalion had a number of children amongst them Hellen from whom all Hellenes (Greeks) were descended"},
+        {"id": "Deucalion", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Deucalion</b> (Greek: Δευκαλίων) was a son of Prometheus, the first king of northern Greece. According to the myth, Zeus appaled by the sacrifice of boy by the king of Arcadia, decided to end the Bronze Age by flooding the sea to wash everything clean. Deucalion and his wife Pyrrha were saved by building and mounting a wooden chest with the help of Prometheus (like biblical Noah). Once the deluge was over the couple repopulated the earth by a new race following Delphic oracles's consultation."},
+        {"id": "Hellen", "group": 10, "group_name": "Kings & Heroes", "value": 15,"description":"<b>Hellen</b> (Greek: Έλλην - Greek) was the son of Deucalion and Pyrrha, the progenitor of the Hellenes (Έλληνες - Greeks)"},
+        {"id": "Amphiktyon", "group": 10, "group_name": "Kings & Heroes", "value": 7,"description":"<b>Amphiktyon</b> was a son of Deucalion and Pyrrha."},
+        {"id": "Protogeneia", "group": 10, "group_name": "Kings & Heroes", "value": 7,"description":"<b>Protogeneia</b> was a daughter of Deucalion and Pyrrha."},
+
+        {"id": "Dorus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Dorus</b> (Greek: Δώρος) was the eponymous founder of the Dorians (Greek: Δωριείς), one of the four major ethnic groups among which Hellenes (Greeks) considered themeselves divided." },
+        {"id": "Xuthus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Xuthus</b> (Greek: Ξούθος) was the founder of Achaean and Ionian groups of Hellenes (Greeks)." },
+        {"id": "Aeolus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Aeolus</b> (Greek: Αίολος) was the founder of the Aeolics Hellenic group." },
+
+        {"id": "Sisyphus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
+        {"id": "Salmoneus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
+        {"id": "Athamas", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
+        {"id": "Cretheus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
+
+    
+        {"id": "Rhadamanthus", "group": 7, "group_name": "Underworld Gods", "value": 5,"description":"<b>Rhadamanthus</b> (Greek: Ραδαμανθύς) was initially a king of Crete, son of Europa and Zeus, but became after his death one of the three Judges of the Underworld/Dead."},
+        {"id": "Minos", "group": 7, "group_name": "Underworld Gods", "value": 5,"description":"<b>Minos</b> alongside Rhadamanthus and Aiakos was one of the three judges of the dead, the judge of the third and final vote deciding whether an individual had a punishable life."},
+        {"id": "Aiakos", "group": 7, "group_name": "Underworld Gods", "value": 5,"description":"<b>Aiakos</b> (or Aeacus) was on of the three judges of the dead and guardian of the keys of Haides."},
+
+        {"id": "Pan", "group": 8, "group_name": "Greek Gods", "value": 5,"description":"<b>Pan</b> (Greek: Πάν) was the son of Hermes and a wood nymph. He was the god of shepherds and hunters, and of the meadows and forests of the mountain wilds. Pan was depicted as a man with the horns, legs and tail of a goat."},
+        {"id": "Hermaphroditus", "group": 3, "group_name": "Olympian Gods", "value": 10,"description":"<b>Hermaphroditus</b> (Greek: Ερμαφρόδιτος) took his name after his parents Hermes and Aphrodite. He was considered one of the Erotes (winged love-gods). According to the myth, Hermaphroditus attracted the love of a naiad called Salmacis who prayed to the gods for their union. The gods listen to her prayers and the two were fused into a single body; one body two sexes."},
+        {"id": "Silenus", "group": 8, "group_name": "Greek Gods", "value": 5,"description":"<b>Silenus</b> (or Silenos, Greek: Σειληνός) was the god of wine-making and companion of the wine god Dionysus. He was portrayed as man of the forest, with the ears, tail and legs of a horse."},
+
+        {"id": "Eros (Physical Love)", "group": 3, "group_name": "Olympian Gods", "value": 7,"description":"<b>Eros</b> (Greek: Έρως) was the god of love and procreation. He was the eldest and most mischievous of the Erotes, who randomly shot out love-inducing arrows compelling its victims to fall in love with the first person they see."},
+        {"id": "Anteros ('Love Reciprocated')", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Anteros</b> (Greek: Άντερως) was one of the Erotes, the god of requited love (love returned) and the punisher of the unrequited."},
+        {"id": "Himeros ('Impetuous Love')", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Himeros</b> (Greek: Ίμερος) was one of the Erotes representing the uncontrollable desire and unrequited love."},
+        {"id": "Hedylogos ('Sweet-talk')", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Hedylogos</b> (Greel: Ήδυλογος) was one of the Erotes representing the god of sweet talk and flattery."},
+        {"id": "Hymenaios ('Bridal Hymn')", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Hymenaios</b> (Greek: Ύμεναιος) the god of weddings and marriage was one of the Erotes."},
+        {"id": "Pothos ('Passion')", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Pothos</b> (Greek: Πόθος) was one of the Erotes representing the longing towards an unattainable goal or departed."},
+
+        {"id": "Psyche (Soul)", "group": 8, "group_name": "Greek Gods", "value": 5,"description":"<b>Psyche</b> (Greek: Ψυχή) was the goddess of the soul. According to the myth, she was a once mortal princess of such great beauty that many abandoned worshipping goddess Aphrodite in her place. As a consequence, Aphrodite became so jealous that sent Eros to make her fall in love with a pig but Eros accidentally shot himself with his own arrows instead falling in love Psyche."},
+        {"id": "Hedone", "group": 8, "group_name": "Greek Gods", "value": 5,"description":"<b>Hedone</b> (Greek: Ηδονή) was the daughter of Eros and Psyche, the personified spirit of (sexual) pleasure and enjoyment."},
+
+        {"id": "Inachus", "group": 8, "group_name": "Greek Gods", "value": 5,"description":"<b>Inachus</b> (or Inakhos, Greek: Ιναχός) was a river god offspring of Oceanus and Tethys. He was the consort of Melia with whom he had two daughters Io and Mycene."},
+        {"id": "Io", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Io</b> (Greek: Ιώ), princess of Argos,  was one of the mortal lovers of Zeus, daughter of Inachus and Melia. According to the myth, Zeus in order to conseal his love affair from Hera transformed Io to a heifer. Hera in term had Argus Panoptes to guard the transformed Io, but Zeus conspired with Hermes who stabbed Argus in his sleep and freed Io. Finally, Io turned in human shape from Zeus two children."},
+        {"id": "Mycene", "group": 6, "group_name": "Nymphs", "value": 5,"description":"<b>Mycene</b> (Greek: Μυκήνη) was the Naiad-nymph of the spring of the town of Mykenai (Mycenae) in Argos (southern Greece). She was a daughter of Inachus and the wife of the the Argive king Arestor."},
+
+        {"id": "Argus", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Argus</b> was a son of Mycene and Arestor. Argus was also called Panoptes, 'all seeing', as he had a hundred eyes. He was a loyal servant of Hera who sent him to guard the transformed to heifer, Io. While on guard, Hermes tricked and killed him. To honour him, Hera took his hundred eyes and transformed a fowl to the first peacock!"},
+    
+        {"id": "Epaphos", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Epaphos</b> (or Epaphus, Greek: Επάφος), the king of Egypt - founder of Memphis, was a son of Io and Zeus. With his wife, Memphis, had a daughter, Libya."},
+        {"id": "Keroessa", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Keroessa</b> was a daughter of Io and Zeus"},
+
+        {"id": "Erechthonius", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Erechthonius</b> (or Erichthonius, Greek: Εριχθόνιος) was the legendary founder of Athens born from the Earth and raised by goddess Athena."},
+        {"id": "Phaethon", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Phaethon</b> (Greek: Φαέθων, 'shining' or 'radiant') was the son of Helios (Sun) and the oceanid Clymene but he was raised by Merops. The most famous myth around his name is that of nearly set the Earth on fire while attempting to drive the chariot of the Sun."},
+        {"id": "Coronis", "group": 8, "group_name": "Greek Gods", "value": 5,"description":"<b>Coronis</b> was the princess of the Thessalian Kingdom of Phlegyantis. She was a lover of Apollo from whom she had Asclepius. According to the myth, during her pregnancy she fell in love with Ischys, which enraged Apollo so he sent his sister Artemis to take revenge. Coronis was killed by poisonous arrows but Apollo saved the child who let to grow up with centaur Chiron."},
+        {"id": "Asclepius", "group": 3, "group_name": "Olympian Gods", "value": 7,"description":"<b>Asclepius</b> (Greek: Ασκληπιός) was the god of medicine, son of Apollo and princess Coronis. He was raised by centaur Chiron who trained him in mastering the arts of medicine and surgery."},
+        {"id": "Epione", "group": 8, "group_name": "Greek Gods", "value": 7,"description":"<b>Epione</b> (Greek: Ηπιόνη) was the wife of Asclepius. She was the goddess of the soothing of pain as her name suggests; derives from the word ήπιος - 'soothing'."},
+    
+        {"id": "Hygeia (Health)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Hygeia</b> (Greek: Υγεία) the personification of health and hygiene, the goddess of good health."},
+        {"id": "Panacea (Universal Remedy)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Panacea</b> (Greek: Πανάκεια) was one of the Asclepiades, the goddess of cures (in the froms of medicines)."},
+        {"id": "Aceso (Healing)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Aceso</b> (Greek: Ακεσώ) was of the Asclepiades, the Greek goddess of the healing process."},
+        {"id": "Iaso (Recovery)", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Iaso</b> (Greek: Ιασώ) was the goddess of recuperation from illness."},
+        {"id": "Telesphoros", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Telesphoros</b> was one of the sons of Asclepius and Epione."},
+        {"id": "Machaon", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Machaon</b> was one one of the sons of Asclepius and Epione, master of surgeon."},
+        {"id": "Podaleirus", "group": 3, "group_name": "Olympian Gods", "value": 3,"description":"<b>Podaleirus</b> was one of the sons of Asclepius and Epione, skilled in diagnostics."},
+ 
+        {"id": "Memphis", "group": 6, "group_name": "Nymphs", "value": 3,"description":"<b>Memphis</b> was the Naid nymph wife of King Epaphos."},
+        {"id": "Libya", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Libya</b> was the daughter of King Epaphos and Memphis. She personified the land of Ancient Libya in North Africa."},
+
+        {"id": "Agenor", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Agenor</b> (Greek: Αγήνωρ) was a Phoenician King. He was the twin brother of Belus, who remained in Egypt and reigned over Egypt, while Agenor departed and reigned over Phoenicia."},
+        {"id": "Telephassa", "group": 6, "group_name": "Nymphs", "value": 5,"description":"<b>Telephassa</b> (Greek: Τηλέφασσα) was the wife of King Agenor in Phoenician, daughter of the river god Nilus (Nile)."},
+        {"id": "Cadmus", "group": 10, "group_name": "Kings & Heroes", "value": 15,"description":"<b>Cadmus</b> (or Kadmos, Greek: Κάδμος) was a Phoenician prince, son of King Agenor, who brought the alphabet to the Greeks and founded the city of Thebes. He was considered 'the first hero'; he killed the monstrous Ismenian Dragon, guardian of Ares, and produced by sowing the dragons teeth a crop of armed warriors called Spartoi."},
+        {"id": "Europa", "group": 10, "group_name": "Kings & Heroes", "value": 15,"description":"<b>Europa</b> (Greek: Ευρώπη) was the queen of Crete, mother of King Minos, after whom the continent Europe is named. According to the famous myth, 'the abduction of Europa', Zeus transformed himself into a white bull and mixed into his father's herd to seduce her. When Europa sat on his Zeus' back, he found the opportunity to take her away from Tyre (the ancient Phoenician city) to Crete where he revealed his identity and Europa became the first queen of Crete."},
+        {"id": "Cilix", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Cilix</b> was a son of Phoenician King Agenor. Together with his brother Cadmus searched for their sister Europa. Eventually Cilic settled down in Asiam Minor and the land was called 'Cilicia' after him."},
+        {"id": "Phoenix", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Phoenix</b> became the successor of Agenor as the King of Tyre from whom the Phoenician kingdom took its name."},
+
+        {"id": "Belus", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Belus</b> (Greek: Βήλος) was a king of Egypt and father of Aegyptus and Danaus"},
+        {"id": "Achiroe", "group": 6, "group_name": "Nymphs", "value": 5,"description":"<b>Achiroe</b> (Greek: Αχιρρόη) was a Naiad-nymph, daughter of the river god Nilus (Nile), who became the mother of Aegyptus and Danaus."},
+        {"id": "Danaus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Danaus</b> (Greek: Δαναός) was the king of Libya, twin brother of Aegyptus, and founder of the city of Argos."},
+        {"id": "Aegyptus", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Aegyptus</b> (Greek: Αίγυπτος) was a descendant of the river god Nilus (Nile) through Achiroe who was a legendary king of ancient Egypt."},
+
+        {"id": "Harmonia", "group": 3, "group_name": "Olympian Gods", "value": 5,"description":"<b>Harmonia</b> (Greek: Αρμονία) was the goddess of harmony and consort who wed King Cadmus. She was considered either a daughter of Zeus and Elektra or Ares and Aphrodite. A popular story around her name is the 'Necklace of Harmonia'. According to the myth, Hephaestus crafted the necklace and cursed it to bring misfortune to anyone that possessed it. To punish Aphrodite for her infidelity for having a child, Harmonia, with Ares, Hephaestus gave the necklace to Harmonia as a wedding present."},
+        {"id": "Dardanus", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Dardanus</b> was a son of the Pleiad star nymph Elektra and Zeus."},
+        {"id": "Iasion", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Iasion</b> (or Iasius) was an agricultural hero and the springtime consort of Demeter, son of the Pleiad star nymph Elektra and Zeus."},
+
+        {"id": "Polydorus", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Polydorus</b> (Greek: Πολύδωρος) was a king of Thebes, son of King Cadmus."},
+        {"id": "Agave", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Agave</b> was one of the daughters of Cadmus and Harmonia."},
+        {"id": "Autonoe", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Autonoe</b> (Greek: Αυτονόη) was the eldest daughter of Cadmus and Harmonia."},
+        {"id": "Ino", "group": 10, "group_name": "Greek Gods", "value": 5,"description":"<b>Ino</b> (Greek: Ίνω) was a initially mortal princess, daugher of Cadmus, who later transformed into a sea goddess named Leukothea (White Goddess)."},
+        {"id": "Semele", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Semele</b> (Greek: Σεμέλη) was the youngest daughter of the 'first hero' Cadmus and Harmonia, and the mother of Dionysus by Zeus."},
+
+        {"id": "Aristaeus", "group": 10, "group_name": "Greek Gods", "value": 5,"description":"<b>Aristaeus</b> was a minor god, son of Apollo, that discovered many useful arts, including bee-keeping."},
+        {"id": "Actaeon", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Actaeon</b> (or Aktaion, Greek: Ακταίων) was a son of Autonoe and the minor god Aristeus who was tutored by the centaur Chiron to become a great and fearless huntsman. According to the myth, Artemis transformed him into a stag for staring at her while bathing who was eventually killed by his own pack of hounds!"},
+        {"id": "Macris", "group": 6, "group_name": "Nymphs", "value": 5,"description":"<b>Macris</b> (or Makris, Greek: Μακρίς - 'far away', or Μακάρια - 'blessed') was a nymph daugther of Autonoe who nursed and gave honey to eat to the infant Dionysos in Euroboia after Hermes saved him. As a punishment Hera expelled her from Euboea, so Macris later settled on Korkyra."}
+
+
+    ],
+    "links1": [
+        {"source": "Chaos", "target": "Erebus"},
+        {"source": "Chaos", "target": "Nyx","id": "1"},
+        {"source": "Chaos", "target": "Tartarus", "id": "2"},
+        {"source": "Chaos", "target": "Gaea (Earth)", "id": "3"},
+
+        {"source": "Tartarus", "target": "Typhoeus"},
+
+
+        {"source": "Erebus", "target": "Hemera","id": "5"},
+        {"source": "Erebus", "target": "Aether","id": "4"}, 
+        {"source": "Erebus", "target": "Thanatos","id": "6"},
+        {"source": "Erebus", "target": "Oneiroi","id": "7"},
+        {"source": "Erebus", "target": "Hypnos (Sleep)"},
+        {"source": "Erebus", "target": "Epiphron", "id": "8"}, 
+        {"source": "Erebus", "target": "Eris", "id": "9"},
+        {"source": "Erebus", "target": "Oizys (Misery)", "id": "10"},
+        {"source": "Erebus", "target": "Sophrosyne"},
+        {"source": "Erebus", "target": "Hybris (Insolence, Arrogance)"},
+        {"source": "Erebus", "target": "Nemesis (Retribution/Karma)"},
+        {"source": "Erebus", "target": "Charon"},
+        {"source": "Erebus", "target": "Philotes (Friendship)"}, 
+        {"source": "Erebus", "target": "Eleos"},
+
+        {"source": "Nyx", "target": "Aether"}, 
+        {"source": "Nyx", "target": "Hemera"},
+        {"source": "Nyx", "target": "Moros (Doom)"},
+        {"source": "Nyx", "target": "Apate (Deceit)"},
+        {"source": "Nyx", "target": "Geras (Old Age)"},
+        {"source": "Nyx", "target": "Oizys (Misery)"},
+        {"source": "Nyx", "target": "Momos (Mockery)"},
+        {"source": "Nyx", "target": "Eris"},
+        {"source": "Nyx", "target": "Charon"},
+        {"source": "Nyx", "target": "Hypnos (Sleep)"},
+        {"source": "Nyx", "target": "Oneiroi"},
+        {"source": "Nyx", "target": "The Moirai"},
+        {"source": "Nyx", "target": "Sophrosyne"},
+        {"source": "Nyx", "target": "Thanatos"},
+        {"source": "Nyx", "target": "Hesperides (Daughters of the Evening)"}, 
+        {"source": "Nyx", "target": "Keres"}, 
+        {"source": "Nyx", "target": "Epiphron"}, 
+        {"source": "Nyx", "target": "Hybris (Insolence, Arrogance)"},
+        {"source": "Nyx", "target": "Nemesis (Retribution/Karma)"}, 
+        {"source": "Nyx", "target": "Philotes (Friendship)"},
+        {"source": "Nyx", "target": "Eleos"},
+
+
+        {"source": "Aether", "target": "Thalassa (Sea)"},
+        {"source": "Hemera", "target": "Thalassa (Sea)"},
+
+        {"source": "Oneiroi", "target": "Morpheus (Fashioner)", "id": "11"},
+        {"source": "Oneiroi", "target": "Ikelos", "id": "12"},
+        {"source": "Oneiroi", "target": "Phobetor (Frightener)", "id": "13"},
+        {"source": "Oneiroi", "target": "Phantasos (Fantasy)", "id": "14"},
+
+        {"source": "The Moirai", "target": "Clotho (Spinner)"}, 
+        {"source": "The Moirai", "target": "Lakhesis (Alloter)"}, 
+        {"source": "The Moirai", "target": "Atropos (Unturnable)"},
+
+        {"source": "Eris", "target": "Neikea (Quarrles)"},
+        {"source": "Eris", "target": "Phonoi (Murders)"},
+        {"source": "Eris", "target": "Makhai (Wars)"},
+        {"source": "Eris", "target": "Hysminai (Fight)"},
+        {"source": "Eris", "target": "Psedologoi (Lies)"},
+        {"source": "Eris", "target": "Aphilogiai (Disputes)"},
+        {"source": "Eris", "target": "Dysnomia (Anarchy)"},
+        {"source": "Eris", "target": "Ate (Ruin)"},
+        {"source": "Eris", "target": "Horkos (Oath)"},
+        {"source": "Eris", "target": "Androktasiai (Manslaughters)"},
+        {"source": "Eris", "target": "Limos (Starvation)"},
+        {"source": "Eris", "target": "Algea (Pain)"},
+        {"source": "Eris", "target": "Ponos (Labour)"},
+        {"source": "Eris", "target": "Lethe (Forgetfulness)"},
+
+        {"source": "Gaea (Earth)", "target": "Pontus (Sea)"},
+        {"source": "Gaea (Earth)", "target": "Phorkys"},
+        {"source": "Gaea (Earth)", "target": "Keto"},
+        {"source": "Gaea (Earth)", "target": "Thaumas"},
+        {"source": "Gaea (Earth)", "target": "Nereus"},
+        {"source": "Gaea (Earth)", "target": "Eurybia"},
+
+        {"source": "Gaea (Earth)", "target": "Ourea (Mountains)"},
+
+        {"source": "Ourea (Mountains)", "target": "Aitna"},
+        {"source": "Ourea (Mountains)", "target": "Athos"},
+        {"source": "Ourea (Mountains)", "target": "Helikon"},
+        {"source": "Ourea (Mountains)", "target": "Kithairon"},
+        {"source": "Ourea (Mountains)", "target": "Nysos"},
+        {"source": "Ourea (Mountains)", "target": "Oreios"},
+        {"source": "Ourea (Mountains)", "target": "Tmolos"},
+
+        
+
+        {"source": "Pontus (Sea)", "target": "Phorkys"},
+        {"source": "Pontus (Sea)", "target": "Keto"},
+        {"source": "Pontus (Sea)", "target": "Thaumas"},
+        {"source": "Pontus (Sea)", "target": "Nereus"},
+        {"source": "Pontus (Sea)", "target": "Eurybia"},
+    
+
+        {"source": "Phorkys", "target": "Ekhidna"},
+        {"source": "Keto", "target": "Ekhidna"},
+        {"source": "Ekhidna", "target": "Orthos"},
+        {"source": "Typhoeus", "target": "Orthos"},
+        {"source": "Orthos", "target": "Sphinx"},
+        {"source": "Khimaira", "target": "Sphinx"},
+        {"source": "Orthos", "target": "Nemean Lion"},
+        {"source": "Khimaira", "target": "Nemean Lion"},
+        {"source": "Ekhidna", "target": "Kerberos"},
+        {"source": "Typhoeus", "target": "Kerberos"},
+        {"source": "Ekhidna", "target": "Hydra"},
+        {"source": "Typhoeus", "target": "Hydra"},
+        {"source": "Ekhidna", "target": "Khimaira"},
+        {"source": "Typhoeus", "target": "Khimaira"},
+        {"source": "The Gorgons", "target": "Medusa"},
+        {"source": "The Gorgons", "target": "Stheno"},
+        {"source": "The Gorgons", "target": "Euryale"},
+        {"source": "Medusa", "target": "Pegasus"},
+        {"source": "Medusa", "target": "Chrysaor"},
+
+        {"source": "Gaea (Earth)", "target": "Ouranos (Sky)"},
+    {"source": "Gaea (Earth)", "target": "Cyclopes"},
+    {"source": "Gaea (Earth)", "target": "Hecantocheires (Hundred-Handed Giants)"},
+      
+ 
+    {"source": "Ouranos (Sky)", "target": "Cyclopes"},
+    {"source": "Cyclopes", "target": "Brontes (Thunder)"},
+    {"source": "Cyclopes", "target": "Steropes (Lightning)"},
+    {"source": "Cyclopes", "target": "Arges (Brightness)"},
+    {"source": "Ouranos (Sky)", "target": "Hecantocheires (Hundred-Handed Giants)"},
+   
+    {"source": "Hecantocheires (Hundred-Handed Giants)", "target": "Briareus or Aegaeon"},
+    {"source": "Hecantocheires (Hundred-Handed Giants)", "target": "Kottos (The Furious)"},
+    {"source": "Hecantocheires (Hundred-Handed Giants)", "target": "Gyes (The Long-limbed)"},
+
+    {"source": "Ouranos (Sky)", "target": "Kronos"},
+    {"source": "Ouranos (Sky)", "target": "Koios"},
+    {"source": "Ouranos (Sky)", "target": "Krios"},
+    {"source": "Ouranos (Sky)", "target": "Iapetos"},
+    {"source": "Ouranos (Sky)", "target": "Hyperion"},
+    {"source": "Ouranos (Sky)", "target": "Oceanus"},
+    {"source": "Ouranos (Sky)", "target": "Theia"},
+    {"source": "Ouranos (Sky)", "target": "Themis"},
+    {"source": "Ouranos (Sky)", "target": "Phoibe"},
+    {"source": "Ouranos (Sky)", "target": "Tethys"},
+    {"source": "Ouranos (Sky)", "target": "Mnemosyne"},
+    {"source": "Ouranos (Sky)", "target": "Rhea"},
+
+    {"source": "Gaea (Earth)", "target": "Kronos"},
+    {"source": "Gaea (Earth)", "target": "Koios"},
+    {"source": "Gaea (Earth)", "target": "Krios"},
+    {"source": "Gaea (Earth)", "target": "Iapetos"},
+    {"source": "Gaea (Earth)", "target": "Hyperion"},
+    {"source": "Gaea (Earth)", "target": "Oceanus"},
+    {"source": "Gaea (Earth)", "target": "Theia"},
+    {"source": "Gaea (Earth)", "target": "Themis"},
+    {"source": "Gaea (Earth)", "target": "Phoibe"},
+    {"source": "Gaea (Earth)", "target": "Tethys"},
+    {"source": "Gaea (Earth)", "target": "Mnemosyne"},
+    {"source": "Gaea (Earth)", "target": "Rhea"},
+
+    {"source": "Iapetos", "target": "Atlas"},
+    {"source": "Iapetos", "target": "Prometheus"},
+    {"source": "Iapetos", "target": "Epimetheus"},
+    {"source": "Iapetos", "target": "Menoetius"},
+
+    {"source": "Hyperion", "target": "Helios (Sun)"},
+    {"source": "Hyperion", "target": "Selene (Moon)"},
+    {"source": "Hyperion", "target": "Eos (Dawn)"},
+    {"source": "Theia", "target": "Helios (Sun)"},
+    {"source": "Theia", "target": "Selene (Moon)"},
+    {"source": "Theia", "target": "Eos (Dawn)"},
+
+    {"source": "Tethys", "target": "Nilus (Nile)"},
+    {"source": "Tethys", "target": "The Oceanids"},
+    {"source": "Tethys", "target": "The Potamoi"},
+    {"source": "Tethys", "target": "The Nephelai"},
+    {"source": "Tethys", "target": "Styx"}, 
+    {"source": "Tethys", "target": "Doris"}, 
+    {"source": "Tethys", "target": "Elektra (Oceanid)"},
+    {"source": "Tethys", "target": "Hesione"},
+    {"source": "Tethys", "target": "Inachus"},
+
+
+    {"source": "Mnemosyne", "target": "The Muses"},
+    {"source": "The Muses", "target": "Calliope"},
+    {"source": "Calliope", "target": "Orpheus"},
+    {"source": "The Muses", "target": "Clio"},
+    {"source": "The Muses", "target": "Erato"},
+    {"source": "The Muses", "target": "Euterpe"},
+    {"source": "The Muses", "target": "Melpomene"},
+    {"source": "The Muses", "target": "Terpsichore"},
+    {"source": "The Muses", "target": "Thalia"},
+    {"source": "The Muses", "target": "Urania"},
+
+    {"source": "Oceanus", "target": "Nilus (Nile)"},
+    {"source": "Oceanus", "target": "The Oceanids"},
+    {"source": "Oceanus", "target": "The Potamoi"},     
+    {"source": "Oceanus", "target": "The Nephelai"},
+    {"source": "Oceanus", "target": "Styx"},
+    {"source": "Oceanus", "target": "Doris"},
+    {"source": "Oceanus", "target": "Elektra (Oceanid)"},
+    {"source": "Oceanus", "target": "Hesione"},
+    {"source": "Oceanus", "target": "Inachus"},
+
+    {"source": "Nilus (Nile)", "target": "Memphis"},
+    {"source": "Nilus (Nile)", "target": "Telephassa"},
+    {"source": "The Nephelai", "target": "Telephassa"},
+    {"source": "Nilus (Nile)", "target": "Achiroe"},
+
+
+
+    {"source": "Oceanus", "target": "The Kerkopes"}, 
+    {"source": "Oceanus", "target": "Triptolemos"}, 
+
+    {"source": "Oceanus", "target": "The Aurai"},
+    {"source": "Oceanus", "target": "Pleione"},
+
+
+    {"source": "The Oceanids", "target": "Clymene"},
+    {"source": "The Oceanids", "target": "Metis (Wisdom)"},
+    {"source": "The Oceanids", "target": "Eurynome"},
+
+    {"source": "Clymene", "target": "Atlas"},
+    {"source": "Clymene", "target": "Prometheus"},
+    {"source": "Clymene", "target": "Epimetheus"},
+    {"source": "Clymene", "target": "Menoetius"},
+
+    {"source": "Prometheus", "target": "Deucalion"},
+    {"source": "Hesione", "target": "Deucalion"},
+
+
+    {"source": "Atlas", "target": "The Pleiades"},
+    {"source": "Atlas", "target": "Calypso"},
+    {"source": "Pleione", "target": "The Pleiades"},
+    {"source": "The Pleiades", "target": "Taygete"},
+    {"source": "The Pleiades", "target": "Elektra (Pleiades)"},
+    {"source": "The Pleiades", "target": "Alkyone"},
+    {"source": "The Pleiades", "target": "Sterope"},
+    {"source": "The Pleiades", "target": "Kelaino"},
+    {"source": "The Pleiades", "target": "Maia"},
+    {"source": "The Pleiades", "target": "Merope"},
+    
+    {"source": "Elektra (Pleiades)", "target": "Dardanus"},
+    {"source": "Elektra (Pleiades)", "target": "Iasion"},  
+    {"source": "Elektra (Pleiades)", "target": "Harmonia"},
+
+    {"source": "Zeus", "target": "Dardanus"},
+    {"source": "Zeus", "target": "Iasion"},  
+    {"source": "Zeus", "target": "Harmonia"}, 
+
+    {"source": "Styx", "target": "Kratos (Strength)"},
+    {"source": "Styx", "target": "Zelos (Rivalry)"},
+    {"source": "Styx", "target": "Bia (Force)"},
+    {"source": "Styx", "target": "Nike (Victory)"},
+
+    {"source": "Doris", "target": "The Nereides"},
+    {"source": "Doris", "target": "Amphitrite"},
+    {"source": "Nereus", "target": "Amphitrite"},
+
+    
+    {"source": "Elektra (Oceanid)", "target": "The Harpies"},
+    {"source": "Elektra (Oceanid)", "target": "Iris"},
+    {"source": "Elektra (Oceanid)", "target": "Arke"},
+    {"source": "Thaumas", "target": "Iris"},
+    {"source": "Thaumas", "target": "Arke"},
+    {"source": "Thaumas", "target": "The Harpies"},
+
+
+
+    {"source": "The Harpies", "target": "Okypete"},
+    {"source": "The Harpies", "target": "Aello"},
+    {"source": "The Harpies", "target": "Celaeno"},
+
+    {"source": "Ouranos (Sky)", "target": "Ouranos' Blood"},
+    {"source": "Ouranos' Blood", "target": "The Erinyes (Furies)"},
+    {"source": "Ouranos' Blood", "target": "The Giants"},
+    {"source": "Ouranos' Blood", "target": "The Meliae"},
+    {"source": "Ouranos' Blood", "target": "Aphrodite"},
+
+    {"source": "Ouranos (Sky)", "target": "Ouranos' Blood"},
+    {"source": "Gaea (Earth)", "target": "The Erinyes (Furies)"},
+    {"source": "Gaea (Earth)", "target": "The Giants"},
+    {"source": "Gaea (Earth)", "target": "The Meliae"},
+    
+    {"source": "The Erinyes (Furies)", "target": "Alecto (Remorseless)"},
+    {"source": "The Erinyes (Furies)", "target": "Megaera (Jealous Rage)"},
+    {"source": "The Erinyes (Furies)", "target": "Tisiphone (Vengeance)"},
+
+    {"source": "The Giants", "target": "Agrius"},
+    {"source": "The Giants", "target": "Alcyoneus"},
+    {"source": "The Giants", "target": "Porphyrion"},
+    {"source": "The Giants", "target": "Polybotes"},
+
+    {"source": "Alcyoneus", "target": "The Alcyonides"},
+    {"source": "The Alcyonides", "target": "Alcyoneus"},
+    {"source": "The Alcyonides", "target": "Anthe"},
+    {"source": "The Alcyonides", "target": "Methone"},
+    {"source": "The Alcyonides", "target": "Alkippa"},
+    {"source": "The Alcyonides", "target": "Pallene"},
+    {"source": "The Alcyonides", "target": "Drimo"},
+    {"source": "The Alcyonides", "target": "Asterie"},
+
+    {"source": "Koios", "target": "Asteria"},
+    {"source": "Koios", "target": "Leto"},
+    {"source": "Phoibe", "target": "Asteria"},
+    {"source": "Phoibe", "target": "Leto"},
+
+    {"source": "Pontus (Sea)", "target": "Eurybia"},
+    {"source": "Gaea (Earth)", "target": "Eurybia"},
+
+
+    {"source": "Krios", "target": "Perses"},
+    {"source": "Eurybia", "target": "Perses"},
+    {"source": "Krios", "target": "Astraios"},
+    {"source": "Eurybia", "target": "Astraios"},
+    {"source": "Astraios", "target": "Zephyrus"},
+    {"source": "Astraios", "target": "Notos"},
+    {"source": "Astraios", "target": "Eurus"},
+    {"source": "Astraios", "target": "Boreas"},
+
+
+    {"source": "Krios", "target": "Pallas (Titan)"},
+    {"source": "Eurybia", "target": "Pallas (Titan)"},
+
+
+    {"source": "Asteria", "target": "Hecate"},
+    {"source": "Perses", "target": "Hecate"},
+
+    {"source": "Rhea", "target": "Hestia"},
+    {"source": "Rhea", "target": "Hades"},
+    {"source": "Rhea", "target": "Demeter"},
+    {"source": "Rhea", "target": "Poseidon"},
+    {"source": "Rhea", "target": "Hera"},
+    {"source": "Rhea", "target": "Zeus"},
+    {"source": "Kronos", "target": "Zeus"},
+    {"source": "Kronos", "target": "Hestia"},
+    {"source": "Kronos", "target": "Hades"},
+    {"source": "Kronos", "target": "Demeter"},
+    {"source": "Kronos", "target": "Poseidon"},
+    {"source": "Kronos", "target": "Hera"},
+
+    {"source": "Zeus", "target": "The Charites"},
+    {"source": "Eurynome", "target": "The Charites"},
+    {"source": "The Charites", "target": "Aglaea (splendour)"},
+    {"source": "The Charites", "target": "Euphrosyne (merriment)"},
+    {"source": "The Charites", "target": "Thalia (cheerfulness)"},
+    {"source": "Aglaea (splendour)", "target": "Eukleia"},
+    {"source": "Aglaea (splendour)", "target": "Euthenia"},
+    {"source": "Aglaea (splendour)", "target": "Eupheme"},
+    {"source": "Aglaea (splendour)", "target": "Philophrosyne"},
+
+    {"source": "Zeus", "target": "The Horai"},
+    {"source": "Themis", "target": "The Horai"},
+    {"source": "The Horai", "target": "Auxesia"},
+    {"source": "The Horai", "target": "Carpo"},
+    {"source": "The Horai", "target": "Eunomia (Good Order)"},
+    {"source": "The Horai", "target": "Irene (Peace)"},
+    {"source": "The Horai", "target": "Dike (Justice)"},
+    {"source": "The Horai", "target": "Thallo"},
+
+    {"source": "Poseidon", "target": "Triton"},
+    {"source": "Poseidon", "target": "Pegasus"},
+    {"source": "Poseidon", "target": "Chrysaor"},
+    {"source": "Amphitrite", "target": "Triton"},
+    {"source": "Poseidon", "target": "Agenor"},
+    {"source": "Poseidon", "target": "Belus"},
+    {"source": "Libya", "target": "Agenor"},
+    {"source": "Libya", "target": "Belus"},
+
+    {"source": "Agenor", "target": "Cadmus"},
+    {"source": "Agenor", "target": "Cilix"},
+    {"source": "Agenor", "target": "Europa"},
+    {"source": "Agenor", "target": "Phoenix"},
+
+    {"source": "Telephassa", "target": "Cadmus"},
+    {"source": "Telephassa", "target": "Cilix"},
+    {"source": "Telephassa", "target": "Europa"},
+    {"source": "Telephassa", "target": "Phoenix"},
+
+    {"source": "Cadmus", "target": "Polydorus"},
+    {"source": "Cadmus", "target": "Agave"},
+    {"source": "Cadmus", "target": "Autonoe"},
+    {"source": "Cadmus", "target": "Ino"},
+    {"source": "Cadmus", "target": "Semele"},
+    {"source": "Harmonia", "target": "Polydorus"},
+    {"source": "Harmonia", "target": "Agave"},
+    {"source": "Harmonia", "target": "Autonoe"},
+    {"source": "Harmonia", "target": "Ino"},
+    {"source": "Harmonia", "target": "Semele"},
+    {"source": "Autonoe", "target": "Actaeon"},
+    {"source": "Aristaeus", "target": "Actaeon"},
+    {"source": "Autonoe", "target": "Macris"},
+
+
+
+    {"source": "Belus", "target": "Danaus"},
+    {"source": "Belus", "target": "Aegyptus"},
+
+    {"source": "Achiroe", "target": "Danaus"},
+    {"source": "Achiroe", "target": "Aegyptus"},
+
+    {"source": "Demeter", "target": "Persephone"},
+    {"source": "Demeter", "target": "Arion"},
+    {"source": "Zeus", "target": "Persephone"},
+    {"source": "Poseidon", "target": "Arion"}, 
+
+    {"source": "Hera", "target": "Hephaestus"},
+    {"source": "Zeus", "target": "Hephaestus"},
+    {"source": "Hera", "target": "Ares"},
+    {"source": "Zeus", "target": "Ares"},
+
+    {"source": "Zeus", "target": "Athena"},
+    {"source": "Metis (Wisdom)", "target": "Athena"},
+
+    {"source": "Zeus", "target": "Artemis"},
+    {"source": "Zeus", "target": "Apollo"},
+    {"source": "Leto", "target": "Artemis"},
+    {"source": "Leto", "target": "Apollo"},
+
+    {"source": "Zeus", "target": "Hermes"},
+    {"source": "Maia", "target": "Hermes"},
+
+    {"source": "Pandora", "target": "Pyrrha"},
+    {"source": "Epimetheus", "target": "Pyrrha"},
+
+    {"source": "Pyrrha", "target": "Hellen"},
+    {"source": "Pyrrha", "target": "Amphiktyon"},
+    {"source": "Pyrrha", "target": "Protogeneia"},
+
+    {"source": "Deucalion", "target": "Hellen"},
+    {"source": "Deucalion", "target": "Amphiktyon"},
+    {"source": "Deucalion", "target": "Protogeneia"},
+
+    {"source": "Hellen", "target": "Dorus"},
+    {"source": "Hellen", "target": "Xuthus"},
+    {"source": "Hellen", "target": "Aeolus"},
+    
+
+    {"source": "Zeus", "target": "Rhadamanthus"},
+    {"source": "Europa", "target": "Rhadamanthus"},
+    {"source": "Zeus", "target": "Minos"},
+    {"source": "Europa", "target": "Minos"},
+    {"source": "Zeus", "target": "Aiakos"},
+
+    {"source": "Hermes", "target": "Pan"},
+    {"source": "Hermes", "target": "Hermaphroditus"},
+    {"source": "Hermes", "target": "Silenus"},
+    {"source": "Aphrodite", "target": "Hermaphroditus"},
+
+    {"source": "Aphrodite", "target": "Eros (Physical Love)"},
+    {"source": "Aphrodite", "target": "Anteros ('Love Reciprocated')"},
+    {"source": "Aphrodite", "target": "Himeros ('Impetuous Love')"},
+    {"source": "Aphrodite", "target": "Hedylogos ('Sweet-talk')"},
+    {"source": "Aphrodite", "target": "Hymenaios ('Bridal Hymn')"},
+    {"source": "Aphrodite", "target": "Pothos ('Passion')"},
+    
+    {"source": "Eros (Physical Love)", "target": "Hedone"},
+    {"source": "Psyche (Soul)", "target": "Hedone"},
+
+    {"source": "Inachus", "target": "Io"},
+    {"source": "Inachus", "target": "Mycene"},
+    {"source": "The Meliae", "target": "Io"},
+    {"source": "The Meliae", "target": "Mycene"},
+
+    
+    {"source": "Io", "target": "Epaphos"},
+    {"source": "Zeus", "target": "Epaphos"},
+    {"source": "Io", "target": "Keroessa"},
+    {"source": "Zeus", "target": "Keroessa"},
+
+    {"source": "Apollo", "target": "Phaethon"},
+    {"source": "Clymene", "target": "Phaethon"},
+
+    {"source": "Apollo", "target": "Asclepius"},
+    {"source": "Asclepius", "target": "Hygeia (Health)"},
+    {"source": "Asclepius", "target": "Panacea (Universal Remedy)"},
+    {"source": "Asclepius", "target": "Aceso (Healing)"},
+    {"source": "Asclepius", "target": "Iaso (Recovery)"},
+    {"source": "Asclepius", "target": "Telesphoros"},
+    {"source": "Asclepius", "target": "Machaon"},
+    {"source": "Asclepius", "target": "Podaleirus"},
+
+    {"source": "Epione", "target": "Hygeia (Health)"},
+    {"source": "Epione", "target": "Panacea (Universal Remedy)"},
+    {"source": "Epione", "target": "Aceso (Healing)"},
+    {"source": "Epione", "target": "Iaso (Recovery)"},
+    {"source": "Epione", "target": "Telesphoros"},
+    {"source": "Epione", "target": "Machaon"},
+    {"source": "Epione", "target": "Podaleirus"}
+
+
+
+
+
+
+    
+        
+
+ 
+    ]
+}

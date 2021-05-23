@@ -1,0 +1,138 @@
+body {
+	background-color:#151216;
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #c9cfcc;
+}
+
+
+#top-intro {
+	margin: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+#top-title {
+	margin-top: 5%;
+	font-size: 4vw;
+	color: #c4d4cc;
+	font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+#top-subtitle {
+	margin-top: 1%;
+	margin-bottom: 0%;
+    width: 100%;
+	font-size: 2.5vw;
+	font-weight: 300;
+	line-height: 150%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+}
+#top-subtitle h3 {
+	font-size: 1.4vw;
+	line-height: 160%;
+}
+
+#top-subtitle h4 {
+	font-size: 1.2vw;
+	line-height: 160%;
+}
+
+#top-subtitle h5 {
+	font-size: 1vw;
+	line-height: 160%;
+}
+
+.mythos-chart {
+	display: inline-block;
+    position: absolute;
+    top: 0;
+	left: 0;	
+}
+
+.mythos-chart-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+	left: 0;
+}
+
+line.active{
+	stroke-width: 5;
+}
+
+.tooltip{
+	max-width: 40vw;
+	padding: 10px 10px;
+	margin-left: 10px;
+	margin-right: 100px;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 16px;
+	opacity: 0.95;
+	overflow: hidden;
+	border-radius: 10px;
+
+}
+
+
+.filter-btn {
+	background-color: #81ADC8; 
+	color: #262626; 
+	text-align: center;
+	margin: 4px 25px;
+	font-size: 1vw;
+	padding: 14px 25px;
+	border-radius: 2px;
+	border-radius: 16px;
+	position:relative;
+	transition: .5s ease;
+	right: 10%;
+	width: 15vw;
+	height: 4vw;
+}
+
+.filter-btn:hover {
+	background-color: #80d4ff;
+	color: white;
+  }
+
+.reset-btn {
+	background-color: #81ADC8; 
+	color: #262626; 
+	text-align: center;
+	margin: 4px 25px;
+	font-size: 1vw;
+	padding: 14px 25px;
+	border-radius: 2px;
+	border-radius: 16px;
+	position:relative;
+	transition: .5s ease;
+	right: 10%;
+	width: 15vw;
+	height: 4vw;
+}
+
+.reset-btn:hover {
+	background-color: #80d4ff;
+	color: white;
+  }
+
+#credit {
+	font-family: 'Annie Use Your Telescope', cursive;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1vw;
+	margin-left: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+
+ 
+
+
+
+
+
