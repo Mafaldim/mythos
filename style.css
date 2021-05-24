@@ -30,6 +30,11 @@ body {
     padding-left: 2%;
 }
 
+#top-subtitle h3 {
+	font-size: 1.4vw;
+	line-height: 160%;
+}
+
 #buttons {
 	margin-top: 1%;
 	position: absolute;

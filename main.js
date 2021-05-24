@@ -1,3 +1,6 @@
+
+
+
 // Set initial SVG container
 d3.select("body")
 
@@ -9,10 +12,10 @@ var margin = {
     left: -50
   };
 
-var totalHeight = 2500;  
-var totalWidth = window.innerWidth+600;
-var width = totalWidth - margin.left - margin.right;
+var totalHeight = window.innerHeight + (2800 - window.innerHeight);  
 var height = totalHeight - margin.top - margin.bottom;
+var totalWidth = window.innerWidth + (2500 - window.innerWidth)
+var width = totalWidth - margin.left - margin.right;
 
 //	Data stores
 var graph, store;
