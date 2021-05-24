@@ -13,7 +13,7 @@ body {
 
 #top-title {
 	margin-top: 5%;
-	font-size: 3vw;
+	font-size: 2.5vw;
 	color: #c4d4cc;
 	font-family: 'Annie Use Your Telescope', cursive;
 
@@ -31,26 +31,11 @@ body {
 }
 
 #buttons {
-	margin: 2%;
+	margin-top: 1%;
 	position: absolute;
-	transform: translate(20%, 10%);
+	transform: translate(20%, 20%);
 	
 }
-#top-subtitle h3 {
-	font-size: 1.4vw;
-	line-height: 160%;
-}
-
-#top-subtitle h4 {
-	font-size: 1.2vw;
-	line-height: 160%;
-}
-
-#top-subtitle h5 {
-	font-size: 1vw;
-	line-height: 160%;
-}
-
 .mythos-chart {
 	display: inline-block;
     position: absolute;
