@@ -14,7 +14,7 @@ body {
 
 #top-title {
 	margin-top: 5%;
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #c4d4cc;
 	font-family: 'Annie Use Your Telescope', cursive;
 
@@ -24,7 +24,7 @@ body {
 	margin-top: 1%;
 	margin-bottom: 0%;
     width: 100%;
-	font-size: 2.5vw;
+	font-size: 2vw;
 	font-weight: 300;
 	line-height: 150%;
     padding-bottom: 0%;
@@ -76,13 +76,11 @@ line.active{
 
 }
 
-
 .filter-btn {
-	background-color: #81ADC8; 
 	color: #262626; 
 	text-align: center;
 	margin: 4px 25px;
-	font-size: 1vw;
+	font-size: 1.3vw;
 	padding: 14px 25px;
 	border-radius: 2px;
 	border-radius: 16px;
@@ -99,11 +97,10 @@ line.active{
   }
 
 .reset-btn {
-	background-color: #81ADC8; 
 	color: #262626; 
 	text-align: center;
 	margin: 4px 25px;
-	font-size: 1vw;
+	font-size: 1.3vw;
 	padding: 14px 25px;
 	border-radius: 2px;
 	border-radius: 16px;
