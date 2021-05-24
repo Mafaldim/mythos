@@ -4,7 +4,6 @@ body {
 	color: #c9cfcc;
 }
 
-
 #top-intro {
 	margin: 2%;
 	padding-left: 1%;
@@ -29,6 +28,13 @@ body {
 	line-height: 150%;
     padding-bottom: 0%;
     padding-left: 2%;
+}
+
+#buttons {
+	margin: 2%;
+	position: absolute;
+	transform: translate(20%, 10%);
+	
 }
 #top-subtitle h3 {
 	font-size: 1.4vw;

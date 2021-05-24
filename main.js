@@ -3,7 +3,7 @@ d3.select("body")
 
 // Define margins, width, and height
 var margin = {
-    top: -20,
+    top: -10,
     right: -50,
     bottom: -25,
     left: -50
@@ -50,11 +50,13 @@ var node = svg.append("g").attr("class", "nodes").selectAll(".node");
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink(link).id(d => d.id).distance(25).strength(0.5))
 	.force("charge", d3.forceManyBody()
-		.strength(function(d) { return -100;}).distanceMax(20))
+		.strength(function(d) { return -900;}).distanceMax(600))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+
     //.force('middle', d3.forceX(width * 0.5).strength(0.1))
     //.force('bottom', d3.forceY(height * 0.3).strength(0.2))
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force("collision", d3.forceCollide().strength(1).radius( (d) => d.value + 50  ).iterations(0.1)); // preventing elements from overlapping
+    //.force('center', d3.forceCenter(width / 2, height / 2))
+    //.force("collision", d3.forceCollide().strength(1).radius( (d) => d.value + 50  ).iterations(0.1)); // preventing elements from overlapping
 
 //	Filtered types
 typeFilterList = [];
@@ -318,7 +320,7 @@ function filter_nodes_by_group() {
 // Reset-filter function
 function reset_filter() {
     //	data read and store
-    d3.json("test-data-gods.json", function(err, g) {
+    d3.json("gods.json", function(err, g) {
         if (err) throw err;
 
         var nodeByID = {};

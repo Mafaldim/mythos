@@ -265,12 +265,6 @@
         {"id": "Dorus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Dorus</b> (Greek: Δώρος) was the eponymous founder of the Dorians (Greek: Δωριείς), one of the four major ethnic groups among which Hellenes (Greeks) considered themeselves divided." },
         {"id": "Xuthus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Xuthus</b> (Greek: Ξούθος) was the founder of Achaean and Ionian groups of Hellenes (Greeks)." },
         {"id": "Aeolus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"<b>Aeolus</b> (Greek: Αίολος) was the founder of the Aeolics Hellenic group." },
-
-        {"id": "Sisyphus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
-        {"id": "Salmoneus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
-        {"id": "Athamas", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
-        {"id": "Cretheus", "group": 10, "group_name": "Kings & Heroes", "value": 10,"description":"" },
-
     
         {"id": "Rhadamanthus", "group": 7, "group_name": "Underworld Gods", "value": 5,"description":"<b>Rhadamanthus</b> (Greek: Ραδαμανθύς) was initially a king of Crete, son of Europa and Zeus, but became after his death one of the three Judges of the Underworld/Dead."},
         {"id": "Minos", "group": 7, "group_name": "Underworld Gods", "value": 5,"description":"<b>Minos</b> alongside Rhadamanthus and Aiakos was one of the three judges of the dead, the judge of the third and final vote deciding whether an individual had a punishable life."},
@@ -299,9 +293,7 @@
         {"id": "Epaphos", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Epaphos</b> (or Epaphus, Greek: Επάφος), the king of Egypt - founder of Memphis, was a son of Io and Zeus. With his wife, Memphis, had a daughter, Libya."},
         {"id": "Keroessa", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Keroessa</b> was a daughter of Io and Zeus"},
 
-        {"id": "Erechthonius", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Erechthonius</b> (or Erichthonius, Greek: Εριχθόνιος) was the legendary founder of Athens born from the Earth and raised by goddess Athena."},
         {"id": "Phaethon", "group": 10, "group_name": "Kings & Heroes", "value": 5,"description":"<b>Phaethon</b> (Greek: Φαέθων, 'shining' or 'radiant') was the son of Helios (Sun) and the oceanid Clymene but he was raised by Merops. The most famous myth around his name is that of nearly set the Earth on fire while attempting to drive the chariot of the Sun."},
-        {"id": "Coronis", "group": 8, "group_name": "Greek Gods", "value": 5,"description":"<b>Coronis</b> was the princess of the Thessalian Kingdom of Phlegyantis. She was a lover of Apollo from whom she had Asclepius. According to the myth, during her pregnancy she fell in love with Ischys, which enraged Apollo so he sent his sister Artemis to take revenge. Coronis was killed by poisonous arrows but Apollo saved the child who let to grow up with centaur Chiron."},
         {"id": "Asclepius", "group": 3, "group_name": "Olympian Gods", "value": 7,"description":"<b>Asclepius</b> (Greek: Ασκληπιός) was the god of medicine, son of Apollo and princess Coronis. He was raised by centaur Chiron who trained him in mastering the arts of medicine and surgery."},
         {"id": "Epione", "group": 8, "group_name": "Greek Gods", "value": 7,"description":"<b>Epione</b> (Greek: Ηπιόνη) was the wife of Asclepius. She was the goddess of the soothing of pain as her name suggests; derives from the word ήπιος - 'soothing'."},
     
