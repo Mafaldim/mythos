@@ -1,6 +1,3 @@
-
-
-
 // Set initial SVG container
 d3.select("body")
 
@@ -113,7 +110,7 @@ feMerge.append("feMergeNode")
 
 
 //	Data read and store
-d3.json("gods.json", function(err, g) {
+d3.json("./static/data/gods.json", function(err, g) {
 	if (err) throw err;
 
 	var nodeByID = {};
@@ -323,7 +320,7 @@ function filter_nodes_by_group() {
 // Reset-filter function
 function reset_filter() {
     //	data read and store
-    d3.json("gods.json", function(err, g) {
+    d3.json("./static/data/gods.json", function(err, g) {
         if (err) throw err;
 
         var nodeByID = {};
