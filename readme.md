@@ -60,13 +60,12 @@ Furthermore, the major characters were highlighted by increasing their node size
 ![Version II](images/mythos-graph-version-2.png)
 
 ### Filtering
-An additional functionality to filter nodes and their respective links based on the deities group they belong was added to the visual to enable the user explore the network for different categories, namely, *Primordial Gods*, *Titans*, and *Olympians* gods.
+An additional functionality to filter nodes and their respective links based on the deities group they belong was added to the visual to enable the user explore the network for different categories, namely, *Primordial Gods*, *Titans*, and *Olympians* gods. The filtering was based on [Denise Mauldin's post](https://bl.ocks.org/denisemauldin/cdd667cbaf7b45d600a634c8ae32fae5#index.html) on filtering nodes on Force-Directed Graphs following the [*General Update Pattern*](https://bl.ocks.org/mbostock/3808218)
 
 
 ![](images/mythos-graph-version-3.png)
 
 ## Styling & Visual Design
-
 
 Filter nodes and associated links by group by checking if either its source or target is not selected.
 
