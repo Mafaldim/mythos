@@ -2,7 +2,7 @@
 
 An interactive D3.js dynamic force-directed graph of gods in Greek mythology.
 
-![](screenshots/Mythos.png)
+![](images/mythos-graph.png)
 
 ## Table of Contents
 
@@ -45,25 +45,25 @@ The JSON file contain details on the gods including certain attributes, such as 
 - `middle`, `bottom` for creating a new positioning force along the x and y axis
 - `collision` for avoiding overlapping by treating nodes as circles with radius
 
-Initially, using `forceManyBody()` default values and positioning the graph on the center of the SVG, the network looked as showed below.
+Initially, using `forceManyBody()` default values and positioning the graph on the center of the SVG, the network looked as showed in the Figure below.
 
-![](screenshots/mythos-graph-version-1.png)
-
-As we see the structure of the graph is not great.
+![Version I](images/mythos-graph-version-1.png)
 
 ### Links and Nodes
 
-Subsequently, to improve the structure of the graph, Highlight the major characters by increasing their node size removed the titles from daimones, nymphs and changed the edges to curved lines to improve the graph
+To improve the structure of the graph edges were changed to curved lines as shown in the Figure below. 
 
-![](screenshots/mythos-graph-version-3.png)
+In the definition of the nodes, `.call(force.drag);`  function was utilised to add a force drag event to the specified node. Moreover, a `tooltip` was created, including the `mouseover` event, to reveal a short description when hovering over a node. Finally, a functionality that enables the highlight of the connections of a selected node was included in the `mouseover` event by filtering the 'target' nodes.
 
-In the definition of the nodes, `.call(force.drag);` function was included which allows them to be dragged and dropped by the user. Moreover, a `tooltip` was created, included in the `mouseover` event, to reveal a short description when hovering over a node. Additionally, a functionality that enables the highlight of the connections of a selected node was included in the `mouseover` event by filtering the 'target' nodes.
+Furthermore, the major characters were highlighted by increasing their node size whilst titles were removed from minor deiteis like daimones and nymphs. 
 
+![Version II](images/mythos-graph-version-2.png)
 
 ### Filtering
-![](screenshots/mythos-graph-version-4.png)
+An additional functionality to filter nodes and their respective links based on the deities group they belong was added to the visual to enable the user explore the network for different categories, namely, *Primordial Gods*, *Titans*, and *Olympians* gods.
 
 
+![](images/mythos-graph-version-3.png)
 
 ## Styling & Visual Design
 
@@ -78,6 +78,10 @@ Here is a list of some of the sources consulted to create the visualisation
 - [Simple d3.js tooltips](https://bl.ocks.org/d3noob/a22c42db65eb00d4e369)
 
 ## Licence
+
+- Filtering Nodes on Force-Directed Graphs (D3 V4)] https://bl.ocks.org/denisemauldin/cdd667cbaf7b45d600a634c8ae32fae5#index.html
+- [glow filter](https://stackoverflow.com/questions/9630008/how-can-i-create-a-glow-around-a-rectangle-with-svg)
+
 [https://www.datasketch.es/project/an-interactive-visualization-of-every-line-in-hamilton]
 [source](https://itnext.io/d3-force-directed-graph-forces-experiments-for-dummies-20a5682935)
 
