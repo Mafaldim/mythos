@@ -65,7 +65,7 @@ line.active{
 	margin-left: 10px;
 	margin-right: 100px;
 	font-family: 'Annie Use Your Telescope', cursive;
-	font-size: 16px;
+	font-size: 1vw;
 	opacity: 0.95;
 	overflow: hidden;
 	border-radius: 10px;
@@ -75,6 +75,7 @@ line.active{
 .filter-btn {
 	color: #262626; 
 	text-align: center;
+	font-family: 'Annie Use Your Telescope', cursive;
 	margin: 4px 25px;
 	font-size: 1.3vw;
 	padding: 14px 25px;
@@ -93,7 +94,8 @@ line.active{
   }
 
 .reset-btn {
-	color: #262626; 
+	color: #262626;
+	font-family: 'Annie Use Your Telescope', cursive;
 	text-align: center;
 	margin: 4px 25px;
 	font-size: 1.3vw;
