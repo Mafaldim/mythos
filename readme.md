@@ -46,13 +46,17 @@ D3's force layout uses the [forceSimulation API](https://github.com/d3/d3-force#
 
 Initially, using `forceManyBody()` default values and positioning the graph on the center of the SVG, the network looked as showed in Figure 1 below.
 
-![Version I](images/mythos-graph-version-1.png)
+| ![Version I](images/mythos-graph-version-1.png) |
+|:--:|
+| *Figure 1: First Version of the Graph.* |
 
 ### 3.3 Links and Nodes Adjustments
 
-To improve the aisthetics of the graph, edges were changed to curved lines following the same approach described in the [Curved Links example by Mike Bostock](https://bl.ocks.org/mbostock/4600693). Furthermore, the major characters were highlighted by increasing their node size whilst titles were removed from minor deities like daimones and nymphs (see Figure 2 below). 
+To improve the aesthetics of the graph, edges were changed to curved lines following the same approach described in the [Curved Links example by Mike Bostock](https://bl.ocks.org/mbostock/4600693). Furthermore, the major characters were highlighted by increasing their node size whilst titles were removed from minor deities like *daimones* and *nymphs* (see Figure 2). 
 
-![Version II](images/mythos-graph-version-2.png)
+| ![Version II](images/mythos-graph-version-2.png) |
+|:--:|
+| *Figure 2: Graph with Links Curved.* |
 
 Moreover, through drag and drop, and mouseover events to links and nodes user interactivity was achieved. In the definition of the nodes, `.call(force.drag);`  function was utilised to add a force drag event to the specified node. Moreover, a `tooltip` was created, including the `mouseover` event, to reveal a short description when hovering over a node. Finally, a functionality that enables the highlight of the connections of a selected node was included in the `mouseover` event by filtering the 'target' nodes.
 
@@ -60,20 +64,23 @@ Moreover, through drag and drop, and mouseover events to links and nodes user in
 ### 4. Filtering Gods by Mythological Group
 An additional functionality to filter nodes and their respective links based on the deities group they belong was added to the visual to enable the user explore the network for different categories, namely, *Primordial Gods*, *Titans*, and *Olympians* gods. The filtering was based on [Denise Mauldin's post](https://bl.ocks.org/denisemauldin/cdd667cbaf7b45d600a634c8ae32fae5#index.html) on filtering nodes on Force-Directed Graphs following the [*General Update Pattern*](https://bl.ocks.org/mbostock/3808218). In the following figure (Figure 3), we can see as an example how using the filtering button on *'12 Olympians'* the network is adjusted to only show the connections between the Olympian entities (Zeus, Artemis, Ares, Apollo, Athena ... ).
 
+| ![Filtering](images/mythos-graph-version-3.png) |
+|:--:|
+| *Figure 3: Graph with Filter Buttons.* |
 
-![](images/mythos-graph-version-3.png)
 
 ## Styling & Visual Design
 
-Filter nodes and associated links by group by checking if either its source or target is not selected.
+The appearance of the visualisation was enhanced using some simple CSS. A screenshot of the final version of the network of gods is shown in Figure 4. 
 
-![](images/mythos-graph-version-4.png)
-
+| ![](images/mythos-graph-version-4.png) |
+|:--:|
+| *Figure 3: Graph with Styling.* |
 
 
 ## Resources
 
-Here is a list of some of the sources consulted to create this visualisation:
+Here is a list of some of the sources consulted to create the present visualisation:
 
 - [Theoi Project](https://www.theoi.com/)
 - [GreekMythology.com](https://www.greekmythology.com/)
