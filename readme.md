@@ -2,7 +2,9 @@
 
 An interactive D3.js dynamic force-directed graph of gods in Greek mythology.
 
-![](images/mythos-graph.png)
+![](images/first.gif)
+![](images/third.gif)
+
 
 ## Table of Contents
 
